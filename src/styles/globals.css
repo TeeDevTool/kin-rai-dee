@@ -1,8 +1,28 @@
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap");
+@import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-anuphan: "Anuphan", serif;
+
+  /* Override colors theme */
+  --color-gray-50: #f1f1f4;
+  --color-gray-100: #e3e2e9;
+  --color-gray-200: #c3c2d1;
+  --color-gray-300: #a7a5bb;
+  --color-gray-400: #8b88a4;
+  --color-gray-500: #6e6b8c;
+  --color-gray-600: #585671;
+  --color-gray-700: #424054;
+  --color-gray-800: #2b2a37;
+  --color-gray-900: #17161d;
+
+  /* Colors theme */
+  --color-primary: #e86a33;
+  --color-secondary: #41644a;
+  --color-tertiary: #263a29;
+  --color-background: #f2e3db;
+  --color-success: #00c61e;
+  --color-error: #e20000;
 }
 
 /*
