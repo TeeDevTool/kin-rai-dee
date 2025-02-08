@@ -1,12 +1,14 @@
-import { LatestPost } from "@/app/_components/post";
-import { api, HydrateClient } from "@/trpc/server";
+import { HydrateClient } from "@/trpc/server";
 import { Button } from "@/components/ui/button";
-import { Trans } from "@/components/Trans";
+import { getTranslations } from "next-intl/server";
+import { type ServerLocaleParams } from "@/app/types/params";
 
-export default async function Home() {
-  const hello = await api.post.hello({ text: "from tRPC" });
+export default async function Home({ params }: { params: ServerLocaleParams }) {
+  const { locale } = await params;
 
-  void api.post.getLatest.prefetch();
+  const t = await getTranslations({
+    locale: locale,
+  });
 
   return (
     <HydrateClient>
@@ -15,10 +17,10 @@ export default async function Home() {
         <section className="flex w-full">
           <div>
             <h1 className="text-primary md:text-h1 text-h2">
-              <Trans>ไม่รู้จะกินอะไรดี?</Trans>
+              {t("main.title")}
             </h1>
             <h6 className="text-subtitle2 mt-1 text-gray-500">
-              <Trans>อาหารเยอะจนเลือกไม่ถูก เราช่วยเลือกให้</Trans>
+              {t("main.description")}
             </h6>
             {/* Categories */}
             <div className="text-h mt-3 flex gap-2">
@@ -36,11 +38,9 @@ export default async function Home() {
                   />
                 </svg>
 
-                <Trans>อยากกินของคาว</Trans>
+                {t("main.savory")}
               </Button>
-              <Button variant="outline">
-                <Trans>อยากกินของหวาน</Trans>
-              </Button>
+              <Button variant="outline">{t("main.sweet")}</Button>
             </div>
           </div>
         </section>
