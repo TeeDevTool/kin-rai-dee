@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "เมนูแนะนำ",
     "สุ่มอาหาร",
   ],
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/logo.png" }],
 };
 
 export default async function RootLayout({
