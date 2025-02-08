@@ -61,6 +61,10 @@
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
+
+  --typography: {
+    font-size: 1.375rem;
+  };
 }
 
 /*
@@ -139,54 +143,56 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
+}
 
-  h1 {
-    font-size: 4rem;
+@utility text-h1 {
+  font-size: 4rem;
 
-    @apply font-anuphan font-bold tracking-normal;
-  }
+  @apply font-anuphan font-bold tracking-normal;
+}
 
-  h2 {
-    @apply font-anuphan text-4xl font-bold tracking-normal;
-  }
+@utility text-h2 {
+  font-size: 2.25rem;
 
-  /* title1 */
-  h3 {
-    font-size: 2rem;
+  @apply font-anuphan font-bold tracking-normal;
+}
 
-    @apply font-anuphan font-bold tracking-normal;
-  }
+/* title1 */
+@utility text-h3 {
+  font-size: 2rem;
 
-  /* title2 */
-  h4 {
-    font-size: 1.375rem;
+  @apply font-anuphan font-bold tracking-normal;
+}
 
-    @apply font-anuphan font-bold tracking-normal;
-  }
+/* title2 */
+@utility text-h4 {
+  font-size: 1.375rem;
 
-  /* subtitle1 */
-  h5 {
-    @apply font-anuphan text-lg font-bold tracking-normal;
-  }
+  @apply font-anuphan font-bold tracking-normal;
+}
 
-  /* subtitle2 */
-  h6 {
-    @apply font-anuphan text-lg font-normal tracking-normal;
-  }
+/* subtitle1 */
+@utility text-subtitle1 {
+  @apply font-anuphan text-lg font-bold tracking-normal;
+}
 
-  p.body1 {
-    @apply font-anuphan text-base font-semibold tracking-normal text-red-400;
-  }
+/* subtitle2 */
+@utility text-subtitle2 {
+  @apply font-anuphan text-lg font-normal tracking-normal;
+}
 
-  p.body2 {
-    @apply font-anuphan text-base font-normal tracking-normal;
-  }
+@utility text-body1 {
+  @apply font-anuphan text-base font-semibold tracking-normal text-red-400;
+}
 
-  label {
-    @apply font-anuphan text-sm font-normal tracking-normal;
-  }
+@utility text-body2 {
+  @apply font-anuphan text-base font-normal tracking-normal;
+}
 
-  label.sm {
-    @apply font-anuphan text-xs font-normal tracking-normal;
-  }
+@utility text-label1 {
+  @apply font-anuphan text-sm font-normal tracking-normal;
+}
+
+@utility text-label2 {
+  @apply font-anuphan text-xs font-normal tracking-normal;
 }
