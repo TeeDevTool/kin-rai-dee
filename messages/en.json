@@ -3,6 +3,11 @@
     "title": "Your hunger solution",
     "description": "When you can't decide what to eat, let us decide for you.",
     "savory": "Savory",
-    "sweet": "Sweet"
+    "sweet": "Sweet",
+    "daily": "Dish of the day",
+    "daily_hint": "We picked one for you"
+  },
+  "randomizer": {
+    "random": "Random menu!"
   }
 }

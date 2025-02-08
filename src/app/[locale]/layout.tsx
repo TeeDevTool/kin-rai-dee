@@ -9,6 +9,7 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { type ServerLocaleParams } from "@/app/types/params";
+import { ModeStoreProvider } from "@/providers/modeStoreProvider";
 
 export const metadata: Metadata = {
   title: "กินไรดี - แนะนำเมนูอาหารสำหรับคนไม่รู้จะกินอะไร",
@@ -48,7 +49,9 @@ export default async function RootLayout({
     <html lang="th">
       <body>
         <NextIntlClientProvider messages={messages}>
-          <TRPCReactProvider>{children}</TRPCReactProvider>
+          <TRPCReactProvider>
+            <ModeStoreProvider>{children}</ModeStoreProvider>
+          </TRPCReactProvider>
         </NextIntlClientProvider>
       </body>
     </html>
