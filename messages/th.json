@@ -8,6 +8,12 @@
     "daily_hint": "เราสุ่มไว้ให้แล้ว"
   },
   "randomizer": {
-    "random": "สุ่มเลย!"
+    "random": "สุ่มเลย!",
+    "ready": "พร้อมแล้ว",
+    "categories": "เลือกหมวด"
+  },
+  "footer": {
+    "contact_us": "ติดต่อเรา",
+    "privacy_policies": "นโยบายความเป็นส่วนตัว"
   }
 }

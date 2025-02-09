@@ -8,6 +8,12 @@
     "daily_hint": "We picked one for you"
   },
   "randomizer": {
-    "random": "Random menu!"
+    "random": "Random menu!",
+    "ready": "Ready?",
+    "categories": "Categories"
+  },
+  "footer": {
+    "contact_us": "Contact us",
+    "privacy_policies": "Privacy policies"
   }
 }

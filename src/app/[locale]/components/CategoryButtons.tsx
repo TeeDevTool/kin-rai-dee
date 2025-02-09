@@ -15,7 +15,7 @@ function getActiveStyling(isActive: boolean) {
 export function CategoryButtons() {
   const t = useTranslations();
   const { changeMode, mode } = useModeStore((state) => state);
-  console.log("rerender --> CategoryButtons");
+
   const isSavory = mode === Mode.Savory;
   const isSweet = mode === Mode.Sweet;
 

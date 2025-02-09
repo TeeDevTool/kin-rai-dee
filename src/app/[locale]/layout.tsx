@@ -10,6 +10,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { type ServerLocaleParams } from "@/app/types/params";
 import { ModeStoreProvider } from "@/providers/modeStoreProvider";
+import { Copyright } from "@/components/Copyright";
+import { Navigator } from "@/components/Navigator";
 
 export const metadata: Metadata = {
   title: "กินไรดี - แนะนำเมนูอาหารสำหรับคนไม่รู้จะกินอะไร",
@@ -47,12 +49,16 @@ export default async function RootLayout({
 
   return (
     <html lang="th">
-      <body>
+      <body className="bg-background font-anuphan min-h-screen px-4 pt-[82px] md:px-8 md:pt-[139px] lg:px-48 lg:pt-[106px]">
         <NextIntlClientProvider messages={messages}>
           <TRPCReactProvider>
             <ModeStoreProvider>{children}</ModeStoreProvider>
           </TRPCReactProvider>
         </NextIntlClientProvider>
+        <footer className="grid items-end py-6 md:grid-cols-2 lg:grid-cols-3">
+          <Navigator />
+          <Copyright />
+        </footer>
       </body>
     </html>
   );
