@@ -1,6 +1,7 @@
 import { HydrateClient } from "@/trpc/server";
 import Header from "@/app/[locale]/components/Header";
 import { Randomizer } from "@/app/[locale]/components/Randomizer";
+import { Quote } from "@/app/[locale]/components/Quote";
 
 export default async function Main() {
   return (
@@ -9,8 +10,9 @@ export default async function Main() {
         <section className="grid h-fit w-full gap-10 md:gap-16 lg:grid-cols-2">
           <Header />
         </section>
-        <section className="flex justify-center">
+        <section className="flex flex-col items-center">
           <Randomizer />
+          <Quote />
         </section>
       </main>
     </HydrateClient>
