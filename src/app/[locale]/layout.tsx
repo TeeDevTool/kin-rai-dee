@@ -49,7 +49,42 @@ export default async function RootLayout({
 
   return (
     <html lang="th">
-      <body className="bg-background font-anuphan flex min-h-screen flex-col justify-between px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[84px]">
+      <body className="bg-background font-anuphan relative flex min-h-screen flex-col justify-between px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[84px]">
+        <svg
+          className="absolute top-16 right-11 z-[-1] md:left-0"
+          width="664"
+          height="571"
+          viewBox="0 0 664 571"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M587.569 459.418L20.3143 570L-35 1L663 88.4606L587.569 459.418Z"
+            stroke="white"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <svg
+          className="absolute top-0 right-22 z-[-1] hidden xl:block"
+          width="372"
+          height="306"
+          viewBox="0 0 372 306"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M365.624 -12.7384L1 -28L33.251 261.018L371 305L365.624 -12.7384Z"
+            stroke="white"
+            strokeWidth="1.5"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+
         <NextIntlClientProvider messages={messages}>
           <TRPCReactProvider>
             <ModeStoreProvider>{children}</ModeStoreProvider>
