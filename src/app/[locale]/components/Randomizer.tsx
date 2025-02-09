@@ -7,7 +7,7 @@ export function Randomizer() {
   const t = useTranslations();
 
   return (
-    <Button size="lg">
+    <Button size="xl">
       {t("randomizer.random")}
       <svg
         width="48"

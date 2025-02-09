@@ -49,13 +49,13 @@ export default async function RootLayout({
 
   return (
     <html lang="th">
-      <body className="bg-background font-anuphan min-h-screen px-4 pt-[82px] md:px-8 md:pt-[139px] lg:px-48 lg:pt-[106px]">
+      <body className="bg-background font-anuphan min-h-screen px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[106px]">
         <NextIntlClientProvider messages={messages}>
           <TRPCReactProvider>
             <ModeStoreProvider>{children}</ModeStoreProvider>
           </TRPCReactProvider>
         </NextIntlClientProvider>
-        <footer className="grid items-end py-6 md:grid-cols-2 lg:grid-cols-3">
+        <footer className="grid items-end py-6 md:grid-cols-2 xl:grid-cols-3">
           <Navigator />
           <Copyright />
         </footer>

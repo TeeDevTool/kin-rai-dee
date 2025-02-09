@@ -2,8 +2,28 @@ import { Button } from "@/components/ui/button";
 
 export function Filters() {
   return (
-    <div className="mb-8 grid w-full gap-6 lg:mb-12">
+    <div className="mb-8 grid w-full gap-6 xl:mb-12">
       <h4 className="text-subtitle1 w-fit text-gray-700">หมวดยอดฮิต</h4>
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
+        <Button className="w-full rounded-[0.5rem]" variant="outline" size="lg">
+          ทุกอย่าง (กินอะไรก็ได้)
+        </Button>
+        <Button className="w-full rounded-[0.5rem]" variant="outline" size="lg">
+          อาหารอีสาน
+        </Button>
+        <Button className="w-full rounded-[0.5rem]" variant="outline" size="lg">
+          อาหารใต้
+        </Button>
+        <Button className="w-full rounded-[0.5rem]" variant="outline" size="lg">
+          อาหารภาคกลาง
+        </Button>
+        <Button className="w-full rounded-[0.5rem]" variant="outline" size="lg">
+          อาหารภาคกลาง
+        </Button>
+        <Button className="w-full rounded-[0.5rem]" variant="outline" size="lg">
+          อาหารภาคกลาง
+        </Button>
+      </div>
 
       <h4 className="text-subtitle1 w-fit text-gray-700">แยกตามภูมิภาค</h4>
       <div className="flex flex-wrap gap-3">

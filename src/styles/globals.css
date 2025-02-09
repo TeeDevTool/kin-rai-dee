@@ -182,7 +182,7 @@
 }
 
 @utility text-body1 {
-  @apply font-anuphan text-base font-semibold tracking-normal text-red-400;
+  @apply font-anuphan text-base font-semibold tracking-normal;
 }
 
 @utility text-body2 {

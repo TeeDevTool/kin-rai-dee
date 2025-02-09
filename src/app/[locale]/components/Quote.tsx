@@ -1,6 +1,6 @@
 export function Quote() {
   return (
-    <div className="mt-20 flex flex-col gap-6 md:mt-16 md:gap-8 lg:mt-18 lg:min-w-138 lg:px-12 [&_svg]:w-20 md:[&_svg]:w-27">
+    <div className="mt-20 flex flex-col gap-6 md:mt-16 md:gap-8 xl:mt-18 xl:min-w-138 xl:px-12 [&_svg]:w-20 md:[&_svg]:w-27">
       <svg
         width="108"
         height="66"
