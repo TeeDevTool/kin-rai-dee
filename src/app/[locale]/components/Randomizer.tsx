@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 
 export function Randomizer() {
-  const t = useTranslations();
+  const t = useTranslations("randomizer");
 
   return (
     <Button size="xl">
-      {t("randomizer.random")}
+      {t("random")}
       <svg
         width="48"
         height="48"

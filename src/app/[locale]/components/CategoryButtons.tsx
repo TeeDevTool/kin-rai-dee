@@ -1,19 +1,14 @@
 "use client";
 
+import { getActiveIconStyle } from "@/app/[locale]/utils/style.util";
 import { Button } from "@/components/ui/button";
 import { useModeStore } from "@/providers/modeStoreProvider";
 import { Mode } from "@/stores/modeStore";
 import clsx from "clsx";
 import { useTranslations } from "next-intl";
 
-function getActiveStyling(isActive: boolean) {
-  return isActive
-    ? "!size-6 scale-100 opacity-100"
-    : "!size-0 scale-0 opacity-0";
-}
-
 export function CategoryButtons() {
-  const t = useTranslations();
+  const t = useTranslations("header");
   const { changeMode, mode } = useModeStore((state) => state);
 
   const isSavory = mode === Mode.Savory;
@@ -29,7 +24,7 @@ export function CategoryButtons() {
         <svg
           className={clsx(
             "transition-all duration-300 ease-in-out",
-            getActiveStyling(isSavory),
+            getActiveIconStyle(isSavory),
           )}
           width="24"
           height="24"
@@ -42,7 +37,7 @@ export function CategoryButtons() {
             fill="currentColor"
           />
         </svg>
-        {t("header.savory")}
+        {t("savory")}
       </Button>
       <Button
         variant="outline"
@@ -52,7 +47,7 @@ export function CategoryButtons() {
         <svg
           className={clsx(
             "transition-all duration-300 ease-in-out",
-            getActiveStyling(isSweet),
+            getActiveIconStyle(isSweet),
           )}
           width="24"
           height="24"
@@ -65,7 +60,7 @@ export function CategoryButtons() {
             fill="currentColor"
           />
         </svg>
-        {t("header.sweet")}
+        {t("sweet")}
       </Button>
     </>
   );

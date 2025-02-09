@@ -15,5 +15,25 @@
   "footer": {
     "contact_us": "Contact us",
     "privacy_policies": "Privacy policies"
+  },
+  "filters": {
+    "all": "All",
+    "all_hint": "Eat anything",
+    "noodle": "Noodle",
+    "spicy": "Spicy",
+    "non_spicy": "Non-spicy",
+    "healthy": "Healthy",
+    "soft_diet": "Soft diet",
+    "soft_diet_hint": "",
+    "northern": "Northern",
+    "esan": "Esan",
+    "southern": "Southern",
+    "central": "Central",
+    "thai": "Thai",
+    "chinese": "Chinese",
+    "korean": "Korean",
+    "japanese": "Japanese",
+    "vietnamese": "Vietnamese",
+    "western": "Western"
   }
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export async function Navigator() {
   const locale = await getLocale();
-  const t = await getTranslations({ locale });
+  const t = await getTranslations({ locale, namespace: "footer" });
 
   return (
     <div className="flex items-end justify-center gap-6 md:justify-start md:gap-8">
@@ -22,11 +22,17 @@ export async function Navigator() {
           fill="#E86A33"
         />
       </svg>
-      <Link className="text-primary text-label1 cursor-pointer" href="#">
-        {t("footer.contact_us")}
+      <Link
+        className="text-primary text-label1 hover:text-secondary cursor-pointer transition-all hover:font-medium"
+        href="#"
+      >
+        {t("contact_us")}
       </Link>
-      <Link className="text-primary text-label1 cursor-pointer" href="#">
-        {t("footer.privacy_policies")}
+      <Link
+        className="text-primary text-label1 hover:text-secondary cursor-pointer transition-all hover:font-medium"
+        href="#"
+      >
+        {t("privacy_policies")}
       </Link>
     </div>
   );

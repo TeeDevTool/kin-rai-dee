@@ -3,16 +3,14 @@ import { getTranslations, getLocale } from "next-intl/server";
 
 export default async function Header() {
   const locale = await getLocale();
-  const t = await getTranslations({ locale });
+  const t = await getTranslations({ locale, namespace: "header" });
 
   return (
     <>
       {/* Introduction */}
       <div>
-        <h1 className="text-primary md:text-h1 text-h2">{t("header.title")}</h1>
-        <p className="text-subtitle2 mt-1 text-gray-500">
-          {t("header.description")}
-        </p>
+        <h1 className="text-primary md:text-h1 text-h2">{t("title")}</h1>
+        <p className="text-subtitle2 mt-1 text-gray-500">{t("description")}</p>
         {/* Categories */}
         <div className="text-h mt-3 flex gap-2">
           <CategoryButtons />
@@ -20,10 +18,8 @@ export default async function Header() {
       </div>
       {/* Daily menu */}
       <div className="flex flex-col items-center">
-        <h2 className="text-h4 text-gray-700">{t("header.daily")}</h2>
-        <p className="text-label2 mt-1 text-gray-500">
-          {t("header.daily_hint")}
-        </p>
+        <h2 className="text-h4 text-gray-700">{t("daily")}</h2>
+        <p className="text-label2 mt-1 text-gray-500">{t("daily_hint")}</p>
         <p className="md:text-h2 text-h3 text-secondary z-[1] line-clamp-1 text-center">
           กะเพราหมูสับ
         </p>

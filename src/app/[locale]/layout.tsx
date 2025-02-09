@@ -49,7 +49,7 @@ export default async function RootLayout({
 
   return (
     <html lang="th">
-      <body className="bg-background font-anuphan min-h-screen px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[106px]">
+      <body className="bg-background font-anuphan flex min-h-screen flex-col justify-between px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[84px]">
         <NextIntlClientProvider messages={messages}>
           <TRPCReactProvider>
             <ModeStoreProvider>{children}</ModeStoreProvider>
