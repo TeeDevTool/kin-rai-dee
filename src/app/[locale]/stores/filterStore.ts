@@ -63,9 +63,9 @@ export type FilterActions = {
 export type FilterStore = FilterState & FilterActions;
 
 export const defaultInitState: FilterState = {
-  categories: [],
-  regions: [],
-  cuisines: [],
+  categories: ALL_CATEGORIES,
+  regions: ALL_REGIONS,
+  cuisines: ALL_CUISINES,
 };
 
 function setFilter<T>(filter: T, filterList: T[]) {
