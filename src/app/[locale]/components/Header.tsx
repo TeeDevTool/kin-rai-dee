@@ -1,9 +1,12 @@
 import { CategoryButtons } from "@/app/[locale]/components/CategoryButtons";
 import { getTranslations, getLocale } from "next-intl/server";
+import { api } from "@/trpc/server";
 
 export default async function Header() {
-  const locale = await getLocale();
+  const locale = (await getLocale()) as "th" | "en";
   const t = await getTranslations({ locale, namespace: "header" });
+
+  const daily = await api.random.daily();
 
   return (
     <>
@@ -21,7 +24,7 @@ export default async function Header() {
         <h2 className="text-h4 text-gray-700">{t("daily")}</h2>
         <p className="text-label2 mt-1 text-gray-500">{t("daily_hint")}</p>
         <p className="md:text-h2 text-h3 text-secondary z-[1] line-clamp-1 text-center">
-          กะเพราหมูสับ
+          {daily}
         </p>
         <svg
           className="z-0 -mt-3"
