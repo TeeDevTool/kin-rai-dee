@@ -10,7 +10,8 @@
   "randomizer": {
     "random": "Random menu!",
     "ready": "Ready",
-    "categories": "Categories"
+    "categories": "Categories",
+    "try_again": "Try again"
   },
   "footer": {
     "contact_us": "Contact us",
@@ -35,5 +36,9 @@
     "japanese": "Japanese",
     "vietnamese": "Vietnamese",
     "western": "Western"
+  },
+  "error": {
+    "general": "An error occurred, please try again.",
+    "empty_filter": "Please select a category"
   }
 }

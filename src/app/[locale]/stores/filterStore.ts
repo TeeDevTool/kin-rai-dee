@@ -1,3 +1,4 @@
+import { z } from "zod";
 import { createStore } from "zustand/vanilla";
 
 export enum Category {
@@ -46,11 +47,13 @@ const ALL_CUISINES = [
   Cuisine.Western,
 ];
 
-export type FilterState = {
-  categories: Category[];
-  regions: Region[];
-  cuisines: Cuisine[];
-};
+export const filterSchema = z.object({
+  categories: z.array(z.nativeEnum(Category)),
+  regions: z.array(z.nativeEnum(Region)),
+  cuisines: z.array(z.nativeEnum(Cuisine)),
+});
+
+export type FilterState = z.infer<typeof filterSchema>;
 
 export type FilterActions = {
   setRegions: (regions: Region) => void;

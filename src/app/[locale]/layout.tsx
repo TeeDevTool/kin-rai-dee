@@ -12,6 +12,7 @@ import { type ServerLocaleParams } from "@/app/types/params";
 import { ModeStoreProvider } from "@/providers/modeStoreProvider";
 import { Copyright } from "@/components/Copyright";
 import { Navigator } from "@/components/Navigator";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "กินไรดี - แนะนำเมนูอาหารสำหรับคนไม่รู้จะกินอะไร",
@@ -49,7 +50,8 @@ export default async function RootLayout({
 
   return (
     <html lang="th">
-      <body className="bg-background font-anuphan relative flex min-h-screen flex-col justify-between px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[84px]">
+      <body className="bg-background font-anuphan relative flex min-h-screen flex-col justify-between">
+        {/* Background SVG */}
         <svg
           className="absolute top-16 right-11 z-[-1] md:left-0"
           width="664"
@@ -85,15 +87,23 @@ export default async function RootLayout({
           />
         </svg>
 
-        <NextIntlClientProvider messages={messages}>
-          <TRPCReactProvider>
-            <ModeStoreProvider>{children}</ModeStoreProvider>
-          </TRPCReactProvider>
-        </NextIntlClientProvider>
-        <footer className="grid items-end py-6 md:grid-cols-2 xl:grid-cols-3">
+        {/* Content */}
+        <div className="px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[84px]">
+          <NextIntlClientProvider messages={messages}>
+            <TRPCReactProvider>
+              <ModeStoreProvider>{children}</ModeStoreProvider>
+            </TRPCReactProvider>
+          </NextIntlClientProvider>
+        </div>
+
+        {/* Footer */}
+        <footer className="grid items-end px-4 py-6 md:grid-cols-2 md:px-8 xl:grid-cols-3 xl:px-48">
           <Navigator />
           <Copyright />
         </footer>
+
+        {/* Toast */}
+        <Toaster />
       </body>
     </html>
   );

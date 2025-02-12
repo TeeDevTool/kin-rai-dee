@@ -1,6 +1,13 @@
 import { createTRPCRouter, publicProcedure } from "@/server/api/trpc";
 import { serverTranslate } from "@/server/utils/translate.util";
 import { Redis } from "@upstash/redis";
+import { randomNumber } from "@/server/utils/random";
+import {
+  Category,
+  type Cuisine,
+  type Region,
+  filterSchema,
+} from "@/app/[locale]/stores/filterStore";
 
 // Database
 import foods from "@/server/data/foods.json";
@@ -10,7 +17,30 @@ const redis = Redis.fromEnv();
 type Food = {
   name_th: string;
   name_en: string;
+  spicy: "TRUE" | "FALSE" | "BOTH";
+  cuisine: Cuisine[];
+  region: Region[];
+  isHealthy: boolean;
+  isSoftDiet: boolean;
+  isNoodle: boolean;
 };
+
+function getFoodFilterPredicate(filter: Category) {
+  switch (filter) {
+    case Category.Spicy:
+      return (food: Food) => food.spicy === "TRUE" || food.spicy === "BOTH";
+    case Category.NonSpicy:
+      return (food: Food) => food.spicy === "FALSE" || food.spicy === "BOTH";
+    case Category.Healthy:
+      return (food: Food) => food.isHealthy;
+    case Category.SoftDiet:
+      return (food: Food) => food.isSoftDiet;
+    case Category.Noodle:
+      return (food: Food) => food.isNoodle;
+    default:
+      return () => false;
+  }
+}
 
 export const randomRouter = createTRPCRouter({
   daily: publicProcedure.query(async () => {
@@ -28,7 +58,7 @@ export const randomRouter = createTRPCRouter({
     }
 
     // Get random food
-    const food = foods[Math.floor(Math.random() * foods.length)];
+    const food = foods[randomNumber(foods.length)];
 
     // Store in Redis with expiration at midnight
     const now = new Date();
@@ -48,5 +78,43 @@ export const randomRouter = createTRPCRouter({
       th: food!.name_th,
       en: food!.name_en,
     });
+  }),
+
+  get: publicProcedure.input(filterSchema).mutation(({ input }) => {
+    const hasCuisines = input.cuisines.length > 0;
+    const hasRegions = input.regions.length > 0;
+    const hasCategories = input.categories.length > 0;
+
+    const filteredFoods = (foods as Food[]).filter((food) => {
+      if (!hasCuisines && !hasRegions) {
+        return input.categories.some((category) =>
+          getFoodFilterPredicate(category)(food),
+        );
+      }
+
+      const matchesCuisine =
+        hasCuisines &&
+        input.cuisines.some((cuisine) => food.cuisine.includes(cuisine));
+      const matchesRegion =
+        hasRegions &&
+        input.regions.some((region) => food.region.includes(region));
+      const matchesCategory = hasCategories
+        ? input.categories.some((category) =>
+            getFoodFilterPredicate(category)(food),
+          )
+        : true;
+
+      return (matchesCuisine || matchesRegion) && matchesCategory;
+    });
+
+    if (filteredFoods.length === 0) {
+      throw new Error("No matching food found.");
+    }
+    const food = filteredFoods[randomNumber(filteredFoods.length)];
+
+    return {
+      th: food!.name_th,
+      en: food!.name_en,
+    };
   }),
 });
