@@ -40,5 +40,9 @@
   "error": {
     "general": "An error occurred, please try again.",
     "empty_filter": "Please select a category"
-  }
+  },
+  "contact_us": {
+    "title": "Contact Us"
+  },
+  "back_to_home": "Back to home"
 }

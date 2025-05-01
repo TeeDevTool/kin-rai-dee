@@ -24,13 +24,13 @@ export async function Navigator() {
       </svg>
       <Link
         className="text-primary text-label1 hover:text-secondary cursor-pointer transition-all hover:font-medium"
-        href="#"
+        href={`/${locale}/contact-us`}
       >
         {t("contact_us")}
       </Link>
       <Link
-        className="text-primary text-label1 hover:text-secondary cursor-pointer transition-all hover:font-medium"
-        href="#"
+        className="text-primary text-label1 hover:text-secondary hidden cursor-pointer transition-all hover:font-medium"
+        href={`/${locale}/privacy-policies`}
       >
         {t("privacy_policies")}
       </Link>
