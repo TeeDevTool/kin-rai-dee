@@ -13,6 +13,7 @@ import { ModeStoreProvider } from "@/providers/modeStoreProvider";
 import { Copyright } from "@/components/Copyright";
 import { Navigator } from "@/components/Navigator";
 import { Toaster } from "@/components/ui/toaster";
+import LocaleController from "@/components/LocaleController";
 
 export const metadata: Metadata = {
   title: "กินไรดี - แนะนำเมนูอาหารสำหรับคนไม่รู้จะกินอะไร",
@@ -91,7 +92,10 @@ export default async function RootLayout({
         <div className="px-4 pt-[82px] md:px-8 md:pt-[139px] xl:px-48 xl:pt-[84px]">
           <NextIntlClientProvider messages={messages}>
             <TRPCReactProvider>
-              <ModeStoreProvider>{children}</ModeStoreProvider>
+              <ModeStoreProvider>
+                {children}
+                <LocaleController />
+              </ModeStoreProvider>
             </TRPCReactProvider>
           </NextIntlClientProvider>
         </div>

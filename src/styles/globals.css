@@ -200,3 +200,7 @@
 @utility text-label2 {
   @apply font-anuphan text-xs font-normal tracking-normal;
 }
+
+@utility shadow-primary {
+  box-shadow: 0px 0px 15px 0px #e86a3366;
+}
