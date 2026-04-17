@@ -8,20 +8,39 @@ import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
 import { Loader2 } from "lucide-react";
 import { useRef } from "react";
+import { useModeStore } from "@/providers/modeStoreProvider";
+import { Mode } from "@/stores/modeStore";
+import {
+  defaultInitState,
+  sweetDefaultInitState,
+} from "@/app/[locale]/stores/filterStore";
 
-export function Randomizer() {
+type RandomizerProps = {
+  useDefaultFilter?: boolean;
+};
+
+export function Randomizer({ useDefaultFilter = false }: RandomizerProps) {
   const { toast } = useToast();
   const t = useTranslations();
   const locale = useLocale() as "th" | "en";
   const filterStore = useFilterStore((state) => state);
+  const mode = useModeStore((state) => state.mode);
   const isFirstSuccess = useRef(false);
 
+  const isSweet = mode === Mode.Sweet;
+  const defaultFilter = isSweet ? sweetDefaultInitState : defaultInitState;
+  const activeFilter = useDefaultFilter ? defaultFilter : filterStore;
+
   const { data, isPending, isSuccess, mutate } = api.random.get.useMutation({
-    onMutate: (filter) => {
-      if (
-        filter.categories.length === 0 &&
-        filter.regions.length === 0 &&
-        filter.cuisines.length === 0
+    onMutate: (input) => {
+      if (input.mode === Mode.Sweet) {
+        if (input.cuisines.length === 0) {
+          throw new Error(t("error.empty_filter"));
+        }
+      } else if (
+        input.categories.length === 0 &&
+        input.regions.length === 0 &&
+        input.cuisines.length === 0
       ) {
         throw new Error(t("error.empty_filter"));
       }
@@ -54,7 +73,7 @@ export function Randomizer() {
         className={cn(isPending && "pointer-events-none")}
         size={isFirstSuccess.current ? "default" : "xl"}
         variant={isFirstSuccess.current ? "outline" : "default"}
-        onClick={() => mutate(filterStore)}
+        onClick={() => mutate({ ...activeFilter, mode })}
       >
         <svg
           className={cn(

@@ -2,6 +2,7 @@
 
 import {
   createFilterStore,
+  type FilterState,
   type FilterStore,
 } from "@/app/[locale]/stores/filterStore";
 import { type ReactNode, createContext, useRef, useContext } from "react";
@@ -14,12 +15,16 @@ export const FilterStoreContext = createContext<FilterStoreApi | undefined>(
 );
 export interface FilterStoreProviderProps {
   children: ReactNode;
+  initState?: FilterState;
 }
 
-export const FilterStoreProvider = ({ children }: FilterStoreProviderProps) => {
+export const FilterStoreProvider = ({
+  children,
+  initState,
+}: FilterStoreProviderProps) => {
   const storeRef = useRef<FilterStoreApi>(null);
   if (!storeRef.current) {
-    storeRef.current = createFilterStore();
+    storeRef.current = createFilterStore(initState);
   }
 
   return (

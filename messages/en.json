@@ -35,7 +35,9 @@
     "korean": "Korean",
     "japanese": "Japanese",
     "vietnamese": "Vietnamese",
-    "western": "Western"
+    "western": "Western",
+    "asian": "Asian",
+    "sweet_cuisine_header": "Filter by cuisine"
   },
   "error": {
     "general": "An error occurred, please try again.",

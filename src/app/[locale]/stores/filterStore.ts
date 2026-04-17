@@ -23,6 +23,7 @@ export enum Cuisine {
   Japanese = "JAPANESE",
   Vietnamese = "VIETNAMESE",
   Western = "WESTERN",
+  Asian = "ASIAN",
 }
 
 const ALL_CATEGORIES = [
@@ -47,6 +48,8 @@ const ALL_CUISINES = [
   Cuisine.Western,
 ];
 
+export const SWEET_CUISINES = [Cuisine.Asian, Cuisine.Thai, Cuisine.Western];
+
 export const filterSchema = z.object({
   categories: z.array(z.nativeEnum(Category)),
   regions: z.array(z.nativeEnum(Region)),
@@ -69,6 +72,12 @@ export const defaultInitState: FilterState = {
   categories: ALL_CATEGORIES,
   regions: ALL_REGIONS,
   cuisines: ALL_CUISINES,
+};
+
+export const sweetDefaultInitState: FilterState = {
+  categories: [],
+  regions: [],
+  cuisines: SWEET_CUISINES,
 };
 
 function setFilter<T>(filter: T, filterList: T[]) {

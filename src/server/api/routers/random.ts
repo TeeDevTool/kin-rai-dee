@@ -8,9 +8,12 @@ import {
   type Region,
   filterSchema,
 } from "@/app/[locale]/stores/filterStore";
+import { Mode } from "@/stores/modeStore";
+import { z } from "zod";
 
-// Database
+// Datasets
 import foods from "@/server/data/foods.json";
+import desserts from "@/server/data/desserts.json";
 
 const redis = Redis.fromEnv();
 
@@ -23,6 +26,12 @@ type Food = {
   isHealthy: boolean;
   isSoftDiet: boolean;
   isNoodle: boolean;
+};
+
+type Dessert = {
+  name_th: string;
+  name_en: string;
+  cuisine: Cuisine[];
 };
 
 function getFoodFilterPredicate(filter: Category) {
@@ -41,6 +50,10 @@ function getFoodFilterPredicate(filter: Category) {
       return () => false;
   }
 }
+
+const randomGetInput = filterSchema.extend({
+  mode: z.nativeEnum(Mode).default(Mode.Savory),
+});
 
 export const randomRouter = createTRPCRouter({
   daily: publicProcedure.query(async () => {
@@ -69,7 +82,6 @@ export const randomRouter = createTRPCRouter({
       (midnight.getTime() - now.getTime()) / 1000,
     );
 
-    // Store in Redis with expiration at midnight
     await redis.set(cacheKey, JSON.stringify(food), {
       ex: secondsUntilMidnight,
     });
@@ -80,7 +92,24 @@ export const randomRouter = createTRPCRouter({
     });
   }),
 
-  get: publicProcedure.input(filterSchema).mutation(({ input }) => {
+  get: publicProcedure.input(randomGetInput).mutation(({ input }) => {
+    if (input.mode === Mode.Sweet) {
+      const filtered =
+        input.cuisines.length > 0
+          ? (desserts as Dessert[]).filter((dessert) =>
+              input.cuisines.some((cuisine) => dessert.cuisine.includes(cuisine)),
+            )
+          : (desserts as Dessert[]);
+
+      if (filtered.length === 0) {
+        throw new Error("No matching dessert found.");
+      }
+
+      const dessert = filtered[randomNumber(filtered.length)];
+      return { th: dessert!.name_th, en: dessert!.name_en };
+    }
+
+    // Savory mode — existing logic
     const hasCuisines = input.cuisines.length > 0;
     const hasRegions = input.regions.length > 0;
     const hasCategories = input.categories.length > 0;
