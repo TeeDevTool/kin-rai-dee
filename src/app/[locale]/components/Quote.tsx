@@ -20,7 +20,7 @@ export function Quote() {
       </svg>
 
       <p className="text-h4 text-secondary text-subtitle1 text-center">
-        วันหวยออกทั้งที ขอให้โชคดีนะ!
+        เหนื่อยนักก็พักหน่อย กินอะไรอร่อยๆ ก่อนนะ
       </p>
 
       <svg
