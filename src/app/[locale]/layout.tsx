@@ -15,8 +15,11 @@ import { Navigator } from "@/components/Navigator";
 import { Toaster } from "@/components/ui/toaster";
 import LocaleController from "@/components/LocaleController";
 
+const BASE_URL = "https://kinraidee.info";
+
 export const metadata: Metadata = {
-  title: "กินไรดี - แนะนำเมนูอาหารสำหรับคนไม่รู้จะกินอะไร",
+  metadataBase: new URL(BASE_URL),
+  title: "กินไรดี - สุ่มเมนูอาหาร แก้ปัญหาคิดไม่ออกจะกินอะไร",
   description:
     "กินไรดี เว็บไซต์สุ่มเมนูอาหารสำหรับคนที่ไม่รู้จะกินอะไร ค้นพบเมนูใหม่ๆ ที่คุณไม่เคยลอง แก้ปัญหาคิดไม่ออกว่าจะกินอะไรดี มีทั้งอาหารไทย จีน และนานาชาติให้เลือกหลากหลาย",
   keywords: [
@@ -29,8 +32,43 @@ export const metadata: Metadata = {
     "คิดไม่ออกจะกินอะไร",
     "เมนูแนะนำ",
     "สุ่มอาหาร",
+    "จะกินอะไรดี",
+    "food randomizer",
+    "thai food",
+    "what to eat",
   ],
   icons: [{ rel: "icon", url: "/logo.png" }],
+  openGraph: {
+    title: "กินไรดี - สุ่มเมนูอาหาร",
+    description:
+      "กินไรดี เว็บไซต์สุ่มเมนูอาหารสำหรับคนที่ไม่รู้จะกินอะไร ค้นพบเมนูใหม่ๆ ที่คุณไม่เคยลอง แก้ปัญหาคิดไม่ออกว่าจะกินอะไรดี มีทั้งอาหารไทย จีน และนานาชาติให้เลือกหลากหลาย",
+    url: BASE_URL,
+    siteName: "กินไรดี",
+    locale: "th_TH",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "กินไรดี - สุ่มเมนูอาหาร",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "กินไรดี - สุ่มเมนูอาหาร",
+    description:
+      "กินไรดี เว็บไซต์สุ่มเมนูอาหารสำหรับคนที่ไม่รู้จะกินอะไร ค้นพบเมนูใหม่ๆ ที่คุณไม่เคยลอง แก้ปัญหาคิดไม่ออกว่าจะกินอะไรดี มีทั้งอาหารไทย จีน และนานาชาติให้เลือกหลากหลาย",
+    images: ["/og-image.png"],
+  },
+  alternates: {
+    canonical: BASE_URL,
+    languages: {
+      th: `${BASE_URL}/th`,
+      en: `${BASE_URL}/en`,
+    },
+  },
 };
 
 export default async function RootLayout({
@@ -49,8 +87,37 @@ export default async function RootLayout({
 
   const messages = await getMessages();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "กินไรดี",
+    alternateName: "Kin Rai Dee",
+    description:
+      "สุ่มเมนูอาหารสำหรับคนที่ไม่รู้จะกินอะไร มีเมนูอาหารกว่า 500 รายการ",
+    url: BASE_URL,
+    applicationCategory: "LifestyleApplication",
+    operatingSystem: "Web",
+    inLanguage: ["th", "en"],
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "THB",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "กินไรดี",
+      url: BASE_URL,
+    },
+  };
+
   return (
-    <html lang="th">
+    <html lang={locale}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-background font-anuphan relative flex min-h-screen flex-col justify-between">
         {/* Background SVG */}
         <svg

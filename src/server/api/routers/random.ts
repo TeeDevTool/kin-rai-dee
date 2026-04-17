@@ -92,7 +92,9 @@ export const randomRouter = createTRPCRouter({
     });
   }),
 
-  get: publicProcedure.input(randomGetInput).mutation(({ input }) => {
+  get: publicProcedure.input(randomGetInput).mutation(async ({ input }) => {
+    await new Promise((resolve) => setTimeout(resolve, 750));
+
     if (input.mode === Mode.Sweet) {
       const filtered =
         input.cuisines.length > 0
