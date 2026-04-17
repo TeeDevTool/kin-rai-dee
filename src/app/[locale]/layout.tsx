@@ -119,6 +119,7 @@ export default async function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3208174180987063" crossOrigin="anonymous"></script>
       </head>
       <body className="bg-background font-anuphan relative flex min-h-screen flex-col justify-between">
         {/* Background SVG */}
