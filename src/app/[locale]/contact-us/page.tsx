@@ -13,26 +13,22 @@ export default async function ContactUs() {
           <h1 className="text-h1 text-primary">{t("title")}</h1>
           <div className="flex flex-col gap-4 md:gap-6">
             <p className="text-body2">
-              เว็บไซต์นี้เป็นโปรเจ็กต์ส่วนตัวที่ออกแบบ พัฒนา และดูแลเองทั้งหมด
-              มีจุดประสงค์เพื่ออำนวยความสะดวกให้ทุกคนที่คิดไม่ออกว่ามื้อนี้จะกินอะไรดี
-              ไม่ว่าจะเป็นคนไทย หรือชาวต่างชาติที่
-              มาเที่ยวไทยแล้วเจออาหารหลากหลายละลานตาจนอาจจะสับสนว่าจะเลือกเมนูไหนดี
+              {t("paragraph_1")}
             </p>
             <p className="text-body2">
-              ข้อมูลอาหารทั้งหมดบนเว็บนี้ แอดมินทำเอง
-              อาจมีบางอันเข้าใจผิดก็อย่าเพิ่งโมโห เราพร้อมแก้ไขให้จ้า
+              {t("paragraph_2")}
             </p>
-            <p className="text-body2 flex gap-2">
-              หากมีข้อสงสัย ข้อเสนอแนะ หรือต้องการติดต่อเรา สามารถติดต่อมาได้ที่
-              <a className="text-primary" href="mailto:kinraidee@gmail.com">
+            <p className="text-body2 md:flex gap-2">
+              {t("paragraph_3")}
+              <a className="text-primary ml-2 md:ml-0" href="mailto:kinraidee@gmail.com">
                 kinraidee@gmail.com
               </a>
             </p>
           </div>
           <p className="text-body2 text-center">
-            เราดีใจที่ได้เป็นส่วนหนึ่งในความเจริญอาหารของทุกคน
+            {t("paragraph_4")}
             <br />
-            ขอให้กินดีอยู่ดี อย่าลืมรักษาสุขภาพนะ
+            {t("paragraph_5")}
           </p>
           <div className="flex justify-center">
             <HomeButton />

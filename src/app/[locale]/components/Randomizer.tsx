@@ -73,7 +73,7 @@ export function Randomizer({ useDefaultFilter = false }: RandomizerProps) {
         className={cn(isPending && "pointer-events-none")}
         size={isFirstSuccess.current ? "default" : "xl"}
         variant={isFirstSuccess.current ? "outline" : "default"}
-        onClick={() => mutate({ ...activeFilter, mode })}
+        onClick={() => mutate({ ...activeFilter, mode, previousResult: data?.th })}
       >
         <svg
           className={cn(

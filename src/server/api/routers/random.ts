@@ -53,6 +53,7 @@ function getFoodFilterPredicate(filter: Category) {
 
 const randomGetInput = filterSchema.extend({
   mode: z.nativeEnum(Mode).default(Mode.Savory),
+  previousResult: z.string().optional(),
 });
 
 export const randomRouter = createTRPCRouter({
@@ -107,7 +108,12 @@ export const randomRouter = createTRPCRouter({
         throw new Error("No matching dessert found.");
       }
 
-      const dessert = filtered[randomNumber(filtered.length)];
+      const dedupedDesserts =
+        filtered.length > 1
+          ? filtered.filter((d) => d.name_th !== input.previousResult)
+          : filtered;
+
+      const dessert = dedupedDesserts[randomNumber(dedupedDesserts.length)];
       return { th: dessert!.name_th, en: dessert!.name_en };
     }
 
@@ -141,7 +147,13 @@ export const randomRouter = createTRPCRouter({
     if (filteredFoods.length === 0) {
       throw new Error("No matching food found.");
     }
-    const food = filteredFoods[randomNumber(filteredFoods.length)];
+
+    const dedupedFoods =
+      filteredFoods.length > 1
+        ? filteredFoods.filter((f) => f.name_th !== input.previousResult)
+        : filteredFoods;
+
+    const food = dedupedFoods[randomNumber(dedupedFoods.length)];
 
     return {
       th: food!.name_th,

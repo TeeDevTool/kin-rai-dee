@@ -8,8 +8,8 @@
     "daily_hint": "We picked one for you"
   },
   "randomizer": {
-    "random": "Random menu!",
-    "ready": "Ready",
+    "random": "Surprise me!",
+    "ready": "Instant pick",
     "categories": "Categories",
     "try_again": "Try again"
   },
@@ -37,14 +37,22 @@
     "vietnamese": "Vietnamese",
     "western": "Western",
     "asian": "Asian",
-    "sweet_cuisine_header": "Filter by cuisine"
+    "sweet_cuisine_header": "Filter by cuisine",
+    "top_pick": "Top picks",
+    "by_region": "By Thai region",
+    "by_cuisine": "By cuisine"
   },
   "error": {
     "general": "An error occurred, please try again.",
     "empty_filter": "Please select a category"
   },
   "contact_us": {
-    "title": "Contact Us"
+    "title": "Contact Us",
+    "paragraph_1": "This is a personal project — designed, built, and maintained by a couple people. The goal is simple: help anyone who’s ever wondered “what do I eat this lunch?” — whether you’re a local or a traveler exploring Thai cuisine for the first time and feeling a little overwhelmed by all the delicious options.",
+    "paragraph_2": "All the food info on this site was put together by hand. Some things might be a little off — please don’t rage-quit just yet! Drop us a message and we’ll sort it out.",
+    "paragraph_3": "Got questions, suggestions, or just want to say hi? Reach out at:",
+    "paragraph_4": "We’re genuinely happy to be part of your food journey. 🍜",
+    "paragraph_5": "Eat well, stay healthy, and may every meal be a good one!"
   },
   "back_to_home": "Back to home",
   "th": "Thai",

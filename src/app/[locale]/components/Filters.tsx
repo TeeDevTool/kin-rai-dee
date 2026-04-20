@@ -110,7 +110,7 @@ export function Filters() {
   return (
     <div className="mb-8 grid w-full gap-6 xl:mb-12">
       <div className="grid gap-3">
-        <h4 className="text-subtitle1 w-fit text-gray-700">หมวดยอดฮิต</h4>
+        <h4 className="text-subtitle1 w-fit text-gray-700">{t("top_pick")}</h4>
         <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
           <Button
             className="w-full rounded-2xl"
@@ -175,7 +175,7 @@ export function Filters() {
       </div>
 
       <div className="grid gap-3">
-        <h4 className="text-subtitle1 w-fit text-gray-700">แยกตามภูมิภาค</h4>
+        <h4 className="text-subtitle1 w-fit text-gray-700">{t("by_region")}</h4>
         <div className="flex flex-wrap gap-3">
           {REGIONS.map((region) => {
             const isActive = regions.includes(region.id);
@@ -212,7 +212,7 @@ export function Filters() {
       </div>
 
       <div className="grid gap-3">
-        <h4 className="text-subtitle1 w-fit text-gray-700">แยกตามสัญชาติ</h4>
+        <h4 className="text-subtitle1 w-fit text-gray-700">{t("by_cuisine")}</h4>
         <div className="flex flex-wrap gap-3">
           {CUISINES.map((cuisine) => {
             const isActive = cuisines.includes(cuisine.id);

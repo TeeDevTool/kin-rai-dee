@@ -19,7 +19,7 @@ const buttonVariants = cva(
         default: "h-10 px-4 py-2",
         sm: "h-9 px-3 text-xs",
         lg: "h-20 py-5 text-body1 text-secondary hover:text-secondary-foreground active:text-secondary-foreground",
-        xl: "h-20 px-21 py-5 text-[2rem] md:h-28 md:px-40 xl:px-45 [&_svg]:size-12",
+        xl: "h-20 px-16 py-5 text-[2rem] md:h-28 md:px-40 xl:px-45 [&_svg]:size-12",
         icon: "h-10 w-10",
       },
       active: {
