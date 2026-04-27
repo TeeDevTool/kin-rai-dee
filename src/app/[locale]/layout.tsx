@@ -15,7 +15,7 @@ import { Navigator } from "@/components/Navigator";
 import { Toaster } from "@/components/ui/toaster";
 import LocaleController from "@/components/LocaleController";
 
-const BASE_URL = "https://kinraidee.info";
+const BASE_URL = "https://www.kinraidee.info";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
