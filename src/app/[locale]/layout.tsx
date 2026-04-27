@@ -13,6 +13,7 @@ import { ModeStoreProvider } from "@/providers/modeStoreProvider";
 import { Copyright } from "@/components/Copyright";
 import { Navigator } from "@/components/Navigator";
 import { Toaster } from "@/components/ui/toaster";
+import Script from "next/script";
 import LocaleController from "@/components/LocaleController";
 
 const BASE_URL = "https://www.kinraidee.info";
@@ -119,9 +120,14 @@ export default async function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3208174180987063" crossOrigin="anonymous"></script>
       </head>
       <body className="bg-background font-anuphan relative flex min-h-screen flex-col justify-between">
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3208174180987063"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         {/* Background SVG */}
         <svg
           className="absolute top-16 right-11 z-[-1] md:left-0"
