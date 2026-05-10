@@ -32,8 +32,8 @@ export function SweetFilters() {
 
   const SWEET_CUISINE_FILTERS: CuisineFilter[] = [
     { id: Cuisine.Asian, name: t("asian") },
-    { id: Cuisine.Thai, name: t("thai") },
-    { id: Cuisine.Western, name: t("western") },
+    { id: Cuisine.Thai, name: t("thai_sweet") },
+    { id: Cuisine.Western, name: t("western_sweet") },
   ];
 
   return (

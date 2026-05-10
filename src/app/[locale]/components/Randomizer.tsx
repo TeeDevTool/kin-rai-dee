@@ -7,13 +7,17 @@ import { useTranslations, useLocale } from "next-intl";
 import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
 import { Loader2 } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useModeStore } from "@/providers/modeStoreProvider";
 import { Mode } from "@/stores/modeStore";
 import {
   defaultInitState,
   sweetDefaultInitState,
 } from "@/app/[locale]/stores/filterStore";
+import {
+  getRandomResult,
+  setRandomResult,
+} from "@/stores/randomResultMemory";
 
 type RandomizerProps = {
   useDefaultFilter?: boolean;
@@ -25,13 +29,15 @@ export function Randomizer({ useDefaultFilter = false }: RandomizerProps) {
   const locale = useLocale() as "th" | "en";
   const filterStore = useFilterStore((state) => state);
   const mode = useModeStore((state) => state.mode);
-  const isFirstSuccess = useRef(false);
+  const cachedResult = getRandomResult(mode);
+  const [displayData, setDisplayData] = useState(cachedResult);
+  const isFirstSuccess = useRef(cachedResult !== null);
 
   const isSweet = mode === Mode.Sweet;
   const defaultFilter = isSweet ? sweetDefaultInitState : defaultInitState;
   const activeFilter = useDefaultFilter ? defaultFilter : filterStore;
 
-  const { data, isPending, isSuccess, mutate } = api.random.get.useMutation({
+  const { isPending, mutate } = api.random.get.useMutation({
     onMutate: (input) => {
       if (input.mode === Mode.Sweet) {
         if (input.cuisines.length === 0) {
@@ -45,7 +51,9 @@ export function Randomizer({ useDefaultFilter = false }: RandomizerProps) {
         throw new Error(t("error.empty_filter"));
       }
     },
-    onSuccess: async () => {
+    onSuccess: (result) => {
+      setDisplayData(result);
+      setRandomResult(result, mode);
       if (!isFirstSuccess.current) {
         isFirstSuccess.current = true;
       }
@@ -63,17 +71,17 @@ export function Randomizer({ useDefaultFilter = false }: RandomizerProps) {
       <p
         className={cn(
           "!text-h4 text-primary scale-100 transition-all duration-300",
-          !data && "scale-0",
-          data && "mt-2",
+          !displayData && "scale-0",
+          displayData && "mt-2",
         )}
       >
-        {data?.[locale] ?? null}
+        {displayData?.[locale] ?? null}
       </p>
       <Button
         className={cn(isPending && "pointer-events-none")}
         size={isFirstSuccess.current ? "default" : "xl"}
         variant={isFirstSuccess.current ? "outline" : "default"}
-        onClick={() => mutate({ ...activeFilter, mode, previousResult: data?.th })}
+        onClick={() => mutate({ ...activeFilter, mode, previousResult: displayData?.th })}
       >
         <svg
           className={cn(
@@ -110,7 +118,7 @@ export function Randomizer({ useDefaultFilter = false }: RandomizerProps) {
         />
         <svg
           className={cn(
-            (isSuccess || isPending) &&
+            (displayData !== null || isPending) &&
               "-mr-2 !size-0 scale-0 transition-all duration-300",
           )}
           width="48"

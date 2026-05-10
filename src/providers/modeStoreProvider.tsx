@@ -1,11 +1,13 @@
 "use client";
 
-import { type ReactNode, createContext, useRef, useContext } from "react";
+import { type ReactNode, createContext, useRef, useContext, useEffect } from "react";
 import { useStore } from "zustand";
 
-import { type ModeStore, createModeStore } from "@/stores/modeStore";
-
-export type ModeStoreApi = ReturnType<typeof createModeStore>;
+import {
+  type ModeStore,
+  type ModeStoreApi,
+  createModeStore,
+} from "@/stores/modeStore";
 
 export const ModeStoreContext = createContext<ModeStoreApi | undefined>(
   undefined,
@@ -19,6 +21,11 @@ export const ModeStoreProvider = ({ children }: ModeStoreProviderProps) => {
   if (!storeRef.current) {
     storeRef.current = createModeStore();
   }
+
+  useEffect(() => {
+    const store = storeRef.current;
+    if (store) void store.persist.rehydrate();
+  }, []);
 
   return (
     <ModeStoreContext.Provider value={storeRef.current}>

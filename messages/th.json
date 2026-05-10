@@ -40,7 +40,9 @@
     "sweet_cuisine_header": "แยกตามสัญชาติ",
     "top_pick": "หมวดยอดฮิต",
     "by_region": "แยกตามภูมิภาค",
-    "by_cuisine": "แยกตามสัญชาติ"
+    "by_cuisine": "แยกตามสัญชาติ",
+    "thai_sweet": "ไทย",
+    "western_sweet": "ตะวันตก"
   },
   "error": {
     "general": "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง",

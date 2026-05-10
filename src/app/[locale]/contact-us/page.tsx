@@ -20,8 +20,8 @@ export default async function ContactUs() {
             </p>
             <p className="text-body2 md:flex gap-2">
               {t("paragraph_3")}
-              <a className="text-primary ml-2 md:ml-0" href="mailto:kinraidee@gmail.com">
-                kinraidee@gmail.com
+              <a className="text-primary ml-2 md:ml-0" href="mailto:kinraidee.info@gmail.com">
+                kinraidee.info@gmail.com
               </a>
             </p>
           </div>
