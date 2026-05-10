@@ -2,6 +2,7 @@ import { HydrateClient } from "@/trpc/server";
 import Header from "@/app/[locale]/components/Header";
 import { RandomizerContainer } from "@/app/[locale]/components/RandomizerContainer";
 import { AdUnit } from "@/components/AdUnit";
+import { MoreInformation } from "@/app/[locale]/components/MoreInformation";
 
 export default async function Main() {
   return (
@@ -14,6 +15,9 @@ export default async function Main() {
           <RandomizerContainer />
         </section>
         <AdUnit adSlot="9925164506" adFormat="horizontal" className="w-full" />
+        <section className="flex">
+          <MoreInformation />
+        </section>
       </main>
     </HydrateClient>
   );

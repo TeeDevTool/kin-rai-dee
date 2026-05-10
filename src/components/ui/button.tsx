@@ -14,6 +14,7 @@ const buttonVariants = cva(
         outline:
           "border border-input border-primary bg-background/70 text-secondary hover:bg-secondary/80 hover:text-secondary-foreground hover:border-secondary active:bg-secondary active:text-secondary-foreground active:border-secondary disabled:border-gray-400 disabled:text-gray-400 disabled:bg-background/0",
         text: "text-primary hover:bg-primary/80 hover:text-primary-foreground active:bg-primary active:text-primary-foreground disabled:text-gray-400",
+        link: "underline decoration-1 underline-offset-2 font-semibold text-secondary hover:text-primary active:text-primary transition-colors duration-200 disabled:text-gray-400",
       },
       size: {
         default: "h-10 px-4 py-2",

@@ -58,5 +58,17 @@
   },
   "back_to_home": "Back to home",
   "th": "Thai",
-  "en": "English"
+  "en": "English",
+  "more_information": {
+    "get_to_know_more": "Get to know more about Thai cuisine",
+    "get_to_know_more_paragraph_1": "Ever wonder why people completely fall head over heels for Thai food? Spoiler alert: it is not just about burning your tongue off with chilies! The real magic of Thai cuisine is how it brings total opposites together for a perfect collaboration. In just one single bite, you might get hit with sour, sweet, salty, spicy, and a tiny hint of bitter. When they all join forces, it creates an absolute flavor bomb.",
+    "get_to_know_more_paragraph_2": "The secret weapon that makes everyone obsessed? The generous, unapologetic use of fresh herbs and spices. Think lemongrass, kaffir lime leaves, galangal, and fresh chilies turning a basic dish into a mind-blowing experience.",
+    "get_to_know_more_paragraph_3": "Next time you order, try stepping out of your Pad Thai comfort zone. Get your spice on with a funky Som Tum (green papaya salad), slurp a bowl of rich Tom Saeb, or cozy up with a deeply flavorful Massaman curry. Trust me, once you enter the Thai food universe, there is no turning back. If you haven't tried these yet, go get some right now. Warning: you will definitely need a second plate of rice!",
+    "hidden_gems": "Delicious hidden gems await!",
+    "hidden_gems_paragraph_1": "Okay, maybe they aren't that hidden, but hey, the Thai food scene is way more than just Jay Fai! Give some other places a shot and you'll realize there are tons of mind-blowingly good spots out there, even if tourists have never heard of them. Heck, some of them aren't even mainstream among locals because they don't bother with marketing. They survive purely on word-of-mouth.",
+    "hidden_gems_paragraph_2": "Out of the zillion restaurant pins on Google Maps, the ones rocking a 4.3-star rating or higher with hundreds or thousands of reviews are usually a pretty safe bet for a great meal. We're talking about places like the seafood joints at the Ayutthaya Central Market that are just a little over an hour's drive from Bangkok, those killer suburban noodle shops less than an hour out of the city, or awesome Thai restaurants right in the Ari neighborhood that are just a quick BTS ride away.",
+    "recommendations": "Places that totally won us over",
+    "recommendations_paragraph_1": "We aren't getting paid a dime to say this, but as foodies who are pretty darn picky, we just want to give these spots the hype they deserve. That way they stay in business, and we get to keep eating there for a long, long time. Hehe.",
+    "location": "Location"
+  }
 }
