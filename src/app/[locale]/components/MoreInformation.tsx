@@ -61,10 +61,11 @@ export function MoreInformation() {
           {t("recommendations")}
         </h2>
         <p className="text-body2">{t("recommendations_paragraph_1")}</p>
-        <ul className="list-disc space-y-2 pl-5 max-w-[360px]">
+        <ul className="space-y-2 max-w-[360px]">
           {RESTAURANTS.map((restaurant) => (
-            <li key={restaurant.name} className="text-body2">
-              <div className="flex items-center justify-between gap-4">
+            <li key={restaurant.name} className="text-body2 flex items-center gap-2">
+              <span className="shrink-0 text-foreground">•</span>
+              <div className="flex min-w-0 flex-1 items-center justify-between gap-4">
                 <span className="min-w-0 truncate">{restaurant.name}</span>
                 <LocationButton url={restaurant.url} />
               </div>
