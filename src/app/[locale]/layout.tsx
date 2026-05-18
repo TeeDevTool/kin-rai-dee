@@ -18,8 +18,7 @@ import LocaleController from "@/components/LocaleController";
 
 const BASE_URL = "https://www.kinraidee.info";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(BASE_URL),
+const sharedMetadata = {
   title: "กินไรดี - สุ่มเมนูอาหาร แก้ปัญหาคิดไม่ออกจะกินอะไร",
   description:
     "กินไรดี เว็บไซต์สุ่มเมนูอาหารสำหรับคนที่ไม่รู้จะกินอะไร ค้นพบเมนูใหม่ๆ ที่คุณไม่เคยลอง แก้ปัญหาคิดไม่ออกว่าจะกินอะไรดี มีทั้งอาหารไทย จีน และนานาชาติให้เลือกหลากหลาย",
@@ -40,39 +39,51 @@ export const metadata: Metadata = {
     "thai food",
     "what to eat",
   ],
-  icons: [{ rel: "icon", url: "/logo.png" }],
-  openGraph: {
-    title: "กินไรดี - สุ่มเมนูอาหาร",
-    description:
-      "กินไรดี เว็บไซต์สุ่มเมนูอาหารสำหรับคนที่ไม่รู้จะกินอะไร ค้นพบเมนูใหม่ๆ ที่คุณไม่เคยลอง แก้ปัญหาคิดไม่ออกว่าจะกินอะไรดี มีทั้งอาหารไทย จีน และนานาชาติให้เลือกหลากหลาย",
-    url: BASE_URL,
-    siteName: "กินไรดี",
-    locale: "th_TH",
-    type: "website",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "กินไรดี - สุ่มเมนูอาหาร",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "กินไรดี - สุ่มเมนูอาหาร",
-    description:
-      "กินไรดี เว็บไซต์สุ่มเมนูอาหารสำหรับคนที่ไม่รู้จะกินอะไร ค้นพบเมนูใหม่ๆ ที่คุณไม่เคยลอง แก้ปัญหาคิดไม่ออกว่าจะกินอะไรดี มีทั้งอาหารไทย จีน และนานาชาติให้เลือกหลากหลาย",
-    images: ["/og-image.png"],
-  },
-  alternates: {
-    canonical: BASE_URL,
-    languages: {
-      th: `${BASE_URL}/th`,
-      en: `${BASE_URL}/en`,
-    },
-  },
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: ServerLocaleParams;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const canonicalUrl = `${BASE_URL}/${locale}`;
+
+  return {
+    metadataBase: new URL(BASE_URL),
+    ...sharedMetadata,
+    icons: [{ rel: "icon", url: "/logo.png" }],
+    openGraph: {
+      title: "กินไรดี - สุ่มเมนูอาหาร",
+      description: sharedMetadata.description,
+      url: canonicalUrl,
+      siteName: "กินไรดี",
+      locale: locale === "th" ? "th_TH" : "en_US",
+      type: "website",
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "กินไรดี - สุ่มเมนูอาหาร",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "กินไรดี - สุ่มเมนูอาหาร",
+      description: sharedMetadata.description,
+      images: ["/og-image.png"],
+    },
+    alternates: {
+      canonical: canonicalUrl,
+      languages: {
+        th: `${BASE_URL}/th`,
+        en: `${BASE_URL}/en`,
+      },
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
