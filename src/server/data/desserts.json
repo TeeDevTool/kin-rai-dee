@@ -1,5 +1,6 @@
 [
   {
+    "slug": "brownie",
     "name_th": "บราวนี่",
     "name_en": "Brownie",
     "cuisine": [
@@ -7,6 +8,7 @@
     ]
   },
   {
+    "slug": "butter-cake",
     "name_th": "เค้กเนยสด",
     "name_en": "Butter cake",
     "cuisine": [
@@ -14,6 +16,7 @@
     ]
   },
   {
+    "slug": "fruit-cake",
     "name_th": "เค้กผลไม้",
     "name_en": "Fruit cake",
     "cuisine": [
@@ -21,6 +24,7 @@
     ]
   },
   {
+    "slug": "banana-cake",
     "name_th": "เค้กกล้วยหอม",
     "name_en": "Banana cake",
     "cuisine": [
@@ -28,6 +32,7 @@
     ]
   },
   {
+    "slug": "thai-tea-cake",
     "name_th": "เค้กชาไทย",
     "name_en": "Thai tea cake",
     "cuisine": [
@@ -36,6 +41,7 @@
     ]
   },
   {
+    "slug": "oanee-pae-guay",
     "name_th": "โอนีแปะก๊วย",
     "name_en": "Oanee Pae Guay (Sweet Ginkgo Nut Soup)",
     "cuisine": [
@@ -43,6 +49,7 @@
     ]
   },
   {
+    "slug": "galojee",
     "name_th": "กะลอจี๊",
     "name_en": "Galojee (Deep-fried Sticky Rice Dumplings with Sweet Coconut Filling)",
     "cuisine": [
@@ -51,6 +58,7 @@
     ]
   },
   {
+    "slug": "khanom-gluay",
     "name_th": "ขนมกล้วย",
     "name_en": "Khanom Gluay (Thai Steamed Banana Cake)",
     "cuisine": [
@@ -59,6 +67,7 @@
     ]
   },
   {
+    "slug": "gluay-ping",
     "name_th": "กล้วยปิ้ง / กล้วยทับ",
     "name_en": "Gluay Ping (Thai Grilled Bananas with Coconut Caramel Dipping Sauce)",
     "cuisine": [
@@ -67,6 +76,7 @@
     ]
   },
   {
+    "slug": "gluay-tod",
     "name_th": "กล้วยทอด",
     "name_en": "Gluay Tod (Thai Banana Fritters)",
     "cuisine": [
@@ -75,6 +85,7 @@
     ]
   },
   {
+    "slug": "gluay-tak",
     "name_th": "กล้วยตาก",
     "name_en": "Gluay Tak (Sun-dried Bananas)",
     "cuisine": [
@@ -83,6 +94,7 @@
     ]
   },
   {
+    "slug": "gluay-chueam",
     "name_th": "กล้วยเชื่อม",
     "name_en": "Gluay Chueam (Candied Bananas)",
     "cuisine": [
@@ -91,6 +103,7 @@
     ]
   },
   {
+    "slug": "gluay-brake-taek",
     "name_th": "กล้วยเบรกแตก",
     "name_en": "Gluay Brake Taek (Banana Crisps)",
     "cuisine": [
@@ -99,6 +112,7 @@
     ]
   },
   {
+    "slug": "gluay-buat-chee",
     "name_th": "กล้วยบวชชี",
     "name_en": "Gluay Buat Chee (Bananas in Coconut Milk)",
     "cuisine": [
@@ -107,6 +121,7 @@
     ]
   },
   {
+    "slug": "fresh-milk-cake",
     "name_th": "เค้กนมสด",
     "name_en": "Fresh Milk Cake",
     "cuisine": [
@@ -114,6 +129,7 @@
     ]
   },
   {
+    "slug": "kaeng-buat-fak-thong",
     "name_th": "แกงบวดฟักทอง",
     "name_en": "Kaeng Buat Fak Thong (Pumpkin in Coconut Milk)",
     "cuisine": [
@@ -122,6 +138,7 @@
     ]
   },
   {
+    "slug": "durian-kuan",
     "name_th": "ทุเรียนกวน",
     "name_en": "Durian Kuan (Durian Paste)",
     "cuisine": [
@@ -130,6 +147,7 @@
     ]
   },
   {
+    "slug": "pueak-kuan",
     "name_th": "เผือกกวน",
     "name_en": "Pueak Kuan (Taro Paste)",
     "cuisine": [
@@ -138,6 +156,7 @@
     ]
   },
   {
+    "slug": "tua-kuan",
     "name_th": "ถั่วกวน",
     "name_en": "Tua Kuan (Mung Bean Paste)",
     "cuisine": [
@@ -146,6 +165,7 @@
     ]
   },
   {
+    "slug": "mamuang-kuan",
     "name_th": "มะม่วงกวน",
     "name_en": "Mamuang Kuan (Mango Paste)",
     "cuisine": [
@@ -154,6 +174,7 @@
     ]
   },
   {
+    "slug": "maprao-kaew",
     "name_th": "มะพร้าวแก้ว",
     "name_en": "Maprao Kaew (Candied Coconut Ribbons)",
     "cuisine": [
@@ -162,6 +183,7 @@
     ]
   },
   {
+    "slug": "khanom-krok",
     "name_th": "ขนมครก",
     "name_en": "Khanom Krok (Thai Coconut Rice Pancakes)",
     "cuisine": [
@@ -170,6 +192,7 @@
     ]
   },
   {
+    "slug": "khao-niew-kaew",
     "name_th": "ข้าวเหนียวแก้ว",
     "name_en": "Khao Niew Kaew (Glossy Candied Sticky Rice)",
     "cuisine": [
@@ -178,6 +201,7 @@
     ]
   },
   {
+    "slug": "tang-may",
     "name_th": "ตังเม",
     "name_en": "Tang May (Nougat Candy)",
     "cuisine": [
@@ -185,6 +209,7 @@
     ]
   },
   {
+    "slug": "kalamae",
     "name_th": "กาละแม",
     "name_en": "Kalamae (Thai Sticky Coconut Caramel Candy)",
     "cuisine": [
@@ -193,6 +218,7 @@
     ]
   },
   {
+    "slug": "khao-tom-mud",
     "name_th": "ข้าวต้มมัด",
     "name_en": "Khao Tom Mud (Steamed Sticky Rice with Banana)",
     "cuisine": [
@@ -201,6 +227,7 @@
     ]
   },
   {
+    "slug": "khao-niew-piak",
     "name_th": "ข้าวเหนียวเปียก",
     "name_en": "Khao Niew Piak (Sticky Rice in Coconut Milk)",
     "cuisine": [
@@ -209,6 +236,7 @@
     ]
   },
   {
+    "slug": "mor-kaeng",
     "name_th": "หม้อแกง",
     "name_en": "Mor Kaeng (Thai Taro Custard)",
     "cuisine": [
@@ -217,6 +245,7 @@
     ]
   },
   {
+    "slug": "pla-krim-kai-tao",
     "name_th": "ปลากริมไข่เต่า",
     "name_en": "Pla Krim Kai Tao (Chewy Balls and Noodles in Coconut Milk)",
     "cuisine": [
@@ -225,6 +254,7 @@
     ]
   },
   {
+    "slug": "thong-yib",
     "name_th": "ทองหยิบ",
     "name_en": "Thong Yib (Pinched Gold - Egg Yolk Dessert)",
     "cuisine": [
@@ -233,6 +263,7 @@
     ]
   },
   {
+    "slug": "thong-yod",
     "name_th": "ทองหยอด",
     "name_en": "Thong Yod (Golden Drops - Egg Yolk Dessert)",
     "cuisine": [
@@ -241,6 +272,7 @@
     ]
   },
   {
+    "slug": "foi-thong",
     "name_th": "ฝอยทอง",
     "name_en": "Foi Thong (Golden Threads - Egg Yolk Dessert)",
     "cuisine": [
@@ -249,6 +281,7 @@
     ]
   },
   {
+    "slug": "med-khanun",
     "name_th": "เม็ดขนุน",
     "name_en": "Med Khanun (Mock Jackfruit Seeds - Mung Bean Dessert)",
     "cuisine": [
@@ -257,6 +290,7 @@
     ]
   },
   {
+    "slug": "thong-muan-sod",
     "name_th": "ทองม้วนสด",
     "name_en": "Thong Muan Sod (Thai Soft Coconut Rolls)",
     "cuisine": [
@@ -265,6 +299,7 @@
     ]
   },
   {
+    "slug": "look-choop",
     "name_th": "ลูกชุบ",
     "name_en": "Look Choop (Mung Bean Candies)",
     "cuisine": [
@@ -273,6 +308,7 @@
     ]
   },
   {
+    "slug": "tako",
     "name_th": "ตะโก้",
     "name_en": "Tako (Taro Topped with Coconut Pudding)",
     "cuisine": [
@@ -281,14 +317,18 @@
     ]
   },
   {
+    "slug": "khao-niew-mamuang",
     "name_th": "ข้าวเหนียวมะม่วง",
     "name_en": "Khao Niew Mamuang (Mango Sticky Rice)",
     "cuisine": [
       "ASIAN",
       "THAI"
-    ]
+    ],
+    "description_en": "Khao Niew Mamuang, or mango sticky rice, is Thailand's most famous dessert and a highlight of the hot-season mango harvest. Glutinous rice is steamed and folded with sweetened, salted coconut milk, then served alongside slices of ripe, fragrant nam dok mai mango. A final drizzle of thick coconut cream and a sprinkle of toasted mung beans add richness and crunch. The contrast of warm, creamy rice with cool, sweet mango is simple perfection, best enjoyed when mangoes are in season from March to May.",
+    "description_th": "ข้าวเหนียวมะม่วงคือของหวานที่โด่งดังที่สุดของไทย และเป็นพระเอกของฤดูมะม่วงในหน้าร้อน ข้าวเหนียวนึ่งคลุกกับกะทิรสหวานเค็มกำลังดี เสิร์ฟคู่มะม่วงน้ำดอกไม้สุกหอมหั่นชิ้น ราดหน้าด้วยกะทิข้นๆ และโรยถั่วเขียวคั่วเพิ่มความมันและความกรุบ ความเข้ากันของข้าวเหนียวอุ่นนุ่มกับมะม่วงเย็นหวานคือความลงตัวที่เรียบง่าย อร่อยที่สุดในช่วงมะม่วงออกราวเดือนมีนาคมถึงพฤษภาคม"
   },
   {
+    "slug": "pia-hima",
     "name_th": "เปี๊ยะหิมะ",
     "name_en": "Pia Hima (Snow Skin Mooncake)",
     "cuisine": [
@@ -296,6 +336,7 @@
     ]
   },
   {
+    "slug": "mochi",
     "name_th": "โมจิ",
     "name_en": "Mochi (Japanese Rice Cake)",
     "cuisine": [
@@ -303,6 +344,7 @@
     ]
   },
   {
+    "slug": "crispy-bread",
     "name_th": "ขนมปังกรอบ",
     "name_en": "Crispy Bread",
     "cuisine": [
@@ -311,6 +353,7 @@
     ]
   },
   {
+    "slug": "khanom-pia",
     "name_th": "ขนมเปี๊ยะ",
     "name_en": "Khanom Pia (Chinese Pastry)",
     "cuisine": [
@@ -318,6 +361,7 @@
     ]
   },
   {
+    "slug": "noey-krob",
     "name_th": "เนยกรอบ",
     "name_en": "Noey Krob (Thai Crispy Butter Crepe)",
     "cuisine": [
@@ -326,6 +370,7 @@
     ]
   },
   {
+    "slug": "crispy-brownie",
     "name_th": "บราวนี่กรอบ",
     "name_en": "Crispy Brownie",
     "cuisine": [
@@ -333,6 +378,7 @@
     ]
   },
   {
+    "slug": "coconut-cake",
     "name_th": "เค้กมะพร้าว",
     "name_en": "Coconut Cake",
     "cuisine": [
@@ -340,6 +386,7 @@
     ]
   },
   {
+    "slug": "chocolate-cake",
     "name_th": "เค้กช็อกโกแลต",
     "name_en": "Chocolate Cake",
     "cuisine": [
@@ -347,6 +394,7 @@
     ]
   },
   {
+    "slug": "cheesecake",
     "name_th": "ชีสเค้ก",
     "name_en": "Cheesecake",
     "cuisine": [
@@ -354,6 +402,7 @@
     ]
   },
   {
+    "slug": "cheese-pie",
     "name_th": "ชีสพาย",
     "name_en": "Cheese Pie",
     "cuisine": [
@@ -361,6 +410,7 @@
     ]
   },
   {
+    "slug": "honey-toast",
     "name_th": "ฮันนี่โทสต์",
     "name_en": "Honey Toast",
     "cuisine": [
@@ -368,6 +418,7 @@
     ]
   },
   {
+    "slug": "i-tim",
     "name_th": "ไอติม (ไอศกรีม)",
     "name_en": "I-tim (Ice Cream)",
     "cuisine": [
@@ -375,6 +426,7 @@
     ]
   },
   {
+    "slug": "mousse-cake",
     "name_th": "มูสเค้ก",
     "name_en": "Mousse Cake",
     "cuisine": [
@@ -382,6 +434,7 @@
     ]
   },
   {
+    "slug": "piak-poon",
     "name_th": "เปียกปูน",
     "name_en": "Piak Poon (Thai Soft Chewy Rice Flour Dessert)",
     "cuisine": [
@@ -390,6 +443,7 @@
     ]
   },
   {
+    "slug": "woon-kati",
     "name_th": "วุ้นกะทิ",
     "name_en": "Woon Kati (Coconut Jelly)",
     "cuisine": [
@@ -398,6 +452,7 @@
     ]
   },
   {
+    "slug": "dara-thong-ja-mongkut",
     "name_th": "ดาราทอง (aka. จ่ามงกุฏ)",
     "name_en": "Dara Thong / Ja Mongkut (Thai Crown-shaped Dessert)",
     "cuisine": [
@@ -406,6 +461,7 @@
     ]
   },
   {
+    "slug": "woon-krob",
     "name_th": "วุ้นกรอบ",
     "name_en": "Woon Krob (Crispy Jelly)",
     "cuisine": [
@@ -414,6 +470,7 @@
     ]
   },
   {
+    "slug": "khanom-tuay",
     "name_th": "ขนมถ้วย",
     "name_en": "Khanom Tuay (Coconut Pudding)",
     "cuisine": [
@@ -422,6 +479,7 @@
     ]
   },
   {
+    "slug": "thong-muan-krob",
     "name_th": "ทองม้วนกรอบ",
     "name_en": "Thong Muan Krob (Thai Crispy Coconut Rolls)",
     "cuisine": [
@@ -430,6 +488,7 @@
     ]
   },
   {
+    "slug": "khanom-krok-bai-toey",
     "name_th": "ขนมครกใบเตย",
     "name_en": "Khanom Krok Bai Toey (Pandan Coconut Pancakes)",
     "cuisine": [
@@ -438,6 +497,7 @@
     ]
   },
   {
+    "slug": "khanom-bueang",
     "name_th": "ขนมเบื้อง",
     "name_en": "Khanom Bueang (Thai Crispy Pancakes)",
     "cuisine": [
@@ -446,6 +506,7 @@
     ]
   },
   {
+    "slug": "khanom-tokyo",
     "name_th": "โตเกียว",
     "name_en": "Khanom Tokyo (Thai-style Crepe Roll)",
     "cuisine": [
@@ -454,6 +515,7 @@
     ]
   },
   {
+    "slug": "kakigori",
     "name_th": "คากิโกริ",
     "name_en": "Kakigori (Japanese Shaved Ice)",
     "cuisine": [
@@ -461,6 +523,7 @@
     ]
   },
   {
+    "slug": "chao-guay-nom-sod",
     "name_th": "เฉาก๊วยนมสด",
     "name_en": "Chao Guay Nom Sod (Grass Jelly with Fresh Milk)",
     "cuisine": [
@@ -468,6 +531,7 @@
     ]
   },
   {
+    "slug": "soft-serve-yogurt",
     "name_th": "ซอฟต์เสิร์ฟโยเกิร์ต",
     "name_en": "Soft Serve Yogurt",
     "cuisine": [
@@ -475,6 +539,7 @@
     ]
   },
   {
+    "slug": "i-tim-tod",
     "name_th": "ไอติมทอด",
     "name_en": "I-tim Tod (Fried Ice Cream)",
     "cuisine": [
@@ -482,6 +547,7 @@
     ]
   },
   {
+    "slug": "sarim",
     "name_th": "ซาหริ่ม / สลิ่ม",
     "name_en": "Sarim (Chilled Sweet Vermicelli in Coconut Milk)",
     "cuisine": [
@@ -490,6 +556,7 @@
     ]
   },
   {
+    "slug": "tabtim-krob",
     "name_th": "ทับทิมกรอบ",
     "name_en": "Tabtim Krob (Crispy Water Chestnuts in Coconut Milk)",
     "cuisine": [
@@ -498,6 +565,7 @@
     ]
   },
   {
+    "slug": "thong-ek",
     "name_th": "ทองเอก",
     "name_en": "Thong Ek (Wheat Flour Dumpling with Egg Yorks)",
     "cuisine": [
@@ -506,6 +574,7 @@
     ]
   },
   {
+    "slug": "tuay-fu",
     "name_th": "ถ้วยฟู",
     "name_en": "Tuay Fu (Steamed Cupcake)",
     "cuisine": [
@@ -514,6 +583,7 @@
     ]
   },
   {
+    "slug": "luem-kluen",
     "name_th": "ลืมกลืน",
     "name_en": "Luem Kluen (Thai Jellied Dessert)",
     "cuisine": [
@@ -522,6 +592,7 @@
     ]
   },
   {
+    "slug": "khanom-sai-sai",
     "name_th": "ขนมใส่ไส้",
     "name_en": "Khanom Sai Sai (Thai Steamed Coconut Stuffed with Sweet Coconut)",
     "cuisine": [
@@ -530,6 +601,7 @@
     ]
   },
   {
+    "slug": "khanom-tan",
     "name_th": "ขนมตาล",
     "name_en": "Khanom Tan (Palm Sugar Cake)",
     "cuisine": [
@@ -538,6 +610,7 @@
     ]
   },
   {
+    "slug": "khao-tang",
     "name_th": "ข้าวตัง",
     "name_en": "Khao Tang (Rice Crackers)",
     "cuisine": [
@@ -546,6 +619,7 @@
     ]
   },
   {
+    "slug": "foi-thong-krob",
     "name_th": "ฝอยทองกรอบ",
     "name_en": "Foi Thong Krob (Crispy Golden Threads - Egg Yolk Dessert)",
     "cuisine": [
@@ -554,6 +628,7 @@
     ]
   },
   {
+    "slug": "khanom-niew",
     "name_th": "ขนมเหนียว",
     "name_en": "Khanom Niew (Chewy Rice Cake with Coconut Syrup and Rice Cracker)",
     "cuisine": [
@@ -562,6 +637,7 @@
     ]
   },
   {
+    "slug": "tua-paep",
     "name_th": "ถั่วแปบ",
     "name_en": "Tua Paep (Steamed Mung Bean Rice Crepes)",
     "cuisine": [
@@ -570,6 +646,7 @@
     ]
   },
   {
+    "slug": "pun-sib-pun-klib",
     "name_th": "ปั้นสิบ / ปั้นขลิบ",
     "name_en": "Pun Sib / Pun Klib (Thai Fried Dumplings)",
     "cuisine": [
@@ -578,6 +655,7 @@
     ]
   },
   {
+    "slug": "curry-puff",
     "name_th": "กะหรี่พัฟ / กะหรี่ปั๊บ",
     "name_en": "Curry Puff",
     "cuisine": [
@@ -586,6 +664,7 @@
     ]
   },
   {
+    "slug": "krayasart",
     "name_th": "กระยาสารท",
     "name_en": "Krayasart (Thai Candied Cereal Bar)",
     "cuisine": [
@@ -594,6 +673,7 @@
     ]
   },
   {
+    "slug": "bingsu",
     "name_th": "บิงซู",
     "name_en": "Bingsu (Korean Shaved Ice)",
     "cuisine": [
@@ -601,6 +681,7 @@
     ]
   },
   {
+    "slug": "nam-khaeng-sai",
     "name_th": "น้ำแข็งไส",
     "name_en": "Nam Khaeng Sai (Thai Shaved Ice)",
     "cuisine": [
@@ -609,6 +690,7 @@
     ]
   },
   {
+    "slug": "kleeb-lamduan",
     "name_th": "กลีบลำดวน",
     "name_en": "Kleeb Lamduan (Thai Shortbread Cookies)",
     "cuisine": [
@@ -617,6 +699,7 @@
     ]
   },
   {
+    "slug": "khanom-kong",
     "name_th": "ขนมกง",
     "name_en": "Khanom Kong (Thai Fried Wheel-shaped Dessert)",
     "cuisine": [
@@ -625,6 +708,7 @@
     ]
   },
   {
+    "slug": "khanom-khee-noo",
     "name_th": "ขนมขี้หนู",
     "name_en": "Khanom Khee Noo (Thai Steamed Crumble with Shredded Coconut)",
     "cuisine": [
@@ -633,6 +717,7 @@
     ]
   },
   {
+    "slug": "khanom-chan",
     "name_th": "ขนมชั้น",
     "name_en": "Khanom Chan (Thai Layered Tapioca Dessert)",
     "cuisine": [
@@ -641,6 +726,7 @@
     ]
   },
   {
+    "slug": "khanom-tang-taek",
     "name_th": "ขนมถังแตก",
     "name_en": "Khanom Tang Taek (Thai Fluffy Pancake Filled with Shredded Coconut and Sugar)",
     "cuisine": [
@@ -649,6 +735,7 @@
     ]
   },
   {
+    "slug": "pui-fai",
     "name_th": "ปุยฝ้าย",
     "name_en": "Pui Fai (Steamed Sponge Cupcake)",
     "cuisine": [
@@ -657,6 +744,7 @@
     ]
   },
   {
+    "slug": "khanom-ping",
     "name_th": "ขนมผิง",
     "name_en": "Khanom Ping (Thai Coconut Milk Cookies that Melt in Your Mouth)",
     "cuisine": [
@@ -665,6 +753,7 @@
     ]
   },
   {
+    "slug": "khao-niew-tua-dam",
     "name_th": "ข้าวเหนียวถั่วดำ",
     "name_en": "Khao Niew Tua Dam (Black Bean Sticky Rice in Coconut Milk)",
     "cuisine": [
@@ -673,6 +762,7 @@
     ]
   },
   {
+    "slug": "khao-niew-na-nuan",
     "name_th": "ข้าวเหนียวหน้านวล",
     "name_en": "Khao Niew Na Nuan (Sticky Rice Topped with Creamy Coconut Milk)",
     "cuisine": [
@@ -681,6 +771,7 @@
     ]
   },
   {
+    "slug": "arlua",
     "name_th": "อาลัว",
     "name_en": "Arlua (Bud-shaped Chewy Crunchy Dessert)",
     "cuisine": [
@@ -689,6 +780,7 @@
     ]
   },
   {
+    "slug": "khao-niew-durian",
     "name_th": "ข้าวเหนียวทุเรียน",
     "name_en": "Khao Niew Durian (Durian Sticky Rice)",
     "cuisine": [
@@ -697,6 +789,7 @@
     ]
   },
   {
+    "slug": "khao-niew-ping",
     "name_th": "ข้าวเหนียวปิ้ง",
     "name_en": "Khao Niew Ping (Grilled Sticky Rice with Taro and Banana Filling)",
     "cuisine": [
@@ -705,6 +798,7 @@
     ]
   },
   {
+    "slug": "kai-hong",
     "name_th": "ไข่หงส์",
     "name_en": "Kai Hong (Deep-fried Glutinous Rice Balls with Fillings)",
     "cuisine": [
@@ -713,6 +807,7 @@
     ]
   },
   {
+    "slug": "tao-suan",
     "name_th": "เต้าส่วน",
     "name_en": "Tao Suan (Mung Bean Pudding)",
     "cuisine": [
@@ -721,6 +816,7 @@
     ]
   },
   {
+    "slug": "taeng-thai-nam-kati",
     "name_th": "แตงไทยน้ำกะทิ",
     "name_en": "Taeng Thai Nam Kati (Thai Melon in Coconut Milk)",
     "cuisine": [
@@ -729,6 +825,7 @@
     ]
   },
   {
+    "slug": "tua-tad",
     "name_th": "ถั่วตัด",
     "name_en": "Tua Tad (Chinese Peanut Sesame Brittle)",
     "cuisine": [
@@ -737,6 +834,7 @@
     ]
   },
   {
+    "slug": "ba-bin",
     "name_th": "บ้าบิ่น",
     "name_en": "Ba Bin (Thai Coconut Pancake)",
     "cuisine": [
@@ -745,6 +843,7 @@
     ]
   },
   {
+    "slug": "bua-loy-nom-sod",
     "name_th": "บัวลอยนมสด",
     "name_en": "Bua Loy Nom Sod (Rice Balls in Fresh Milk)",
     "cuisine": [
@@ -753,6 +852,7 @@
     ]
   },
   {
+    "slug": "bua-loy-nam-kati",
     "name_th": "บัวลอยน้ำกะทิ",
     "name_en": "Bua Loy Nam Kati (Rice Balls in Coconut Milk)",
     "cuisine": [
@@ -761,6 +861,7 @@
     ]
   },
   {
+    "slug": "ruam-mit",
     "name_th": "รวมมิตร",
     "name_en": "Ruam Mit (Mixed Dessert in Coconut Milk)",
     "cuisine": [
@@ -769,6 +870,7 @@
     ]
   },
   {
+    "slug": "lod-chong",
     "name_th": "ลอดช่อง",
     "name_en": "Lod Chong (Thai Pandan Noodles in Coconut Milk)",
     "cuisine": [
@@ -777,6 +879,7 @@
     ]
   },
   {
+    "slug": "khao-niew-sangkaya",
     "name_th": "ข้าวเหนียวสังขยา",
     "name_en": "Khao Niew Sangkaya (Sticky Rice with Custard)",
     "cuisine": [
@@ -785,6 +888,7 @@
     ]
   },
   {
+    "slug": "saku-piak",
     "name_th": "สาคูเปียก",
     "name_en": "Saku Piak (Tapioca Pudding)",
     "cuisine": [
@@ -793,6 +897,7 @@
     ]
   },
   {
+    "slug": "sampannee",
     "name_th": "สัมปันนี",
     "name_en": "Sampannee (Soft Crumbly Dessert that Melts in Your Mouth)",
     "cuisine": [
@@ -801,6 +906,7 @@
     ]
   },
   {
+    "slug": "kai-nok-krata-tod",
     "name_th": "ไข่นกกระทาทอด",
     "name_en": "Kai Nok Krata Tod (Fried Glutinous Balls)",
     "cuisine": [
@@ -808,6 +914,7 @@
     ]
   },
   {
+    "slug": "singapore-cookies",
     "name_th": "คุกกี้สิงคโปร์",
     "name_en": "Singapore Cookies",
     "cuisine": [
@@ -815,6 +922,7 @@
     ]
   },
   {
+    "slug": "rak-bua-chueam",
     "name_th": "รากบัวเชื่อม",
     "name_en": "Rak Bua Chueam (Candied Lotus Root)",
     "cuisine": [
@@ -823,6 +931,7 @@
     ]
   },
   {
+    "slug": "khao-mao",
     "name_th": "ข้าวเม่า",
     "name_en": "Khao Mao (Green Rice with Shredded Coconut)",
     "cuisine": [
@@ -831,6 +940,7 @@
     ]
   },
   {
+    "slug": "khao-taen-nam-taengmo",
     "name_th": "ข้าวแต๋นน้ำแตงโม",
     "name_en": "Khao Taen Nam Taengmo (Rice Crackers with Watermelon Glaze)",
     "cuisine": [
@@ -839,6 +949,7 @@
     ]
   },
   {
+    "slug": "khanom-la",
     "name_th": "ขนมลา",
     "name_en": "Khanom La (Southern Thai Traditional Crispy Woven Rice Flour Dessert)",
     "cuisine": [
@@ -847,6 +958,7 @@
     ]
   },
   {
+    "slug": "macaron",
     "name_th": "มาการอง",
     "name_en": "Macaron",
     "cuisine": [
@@ -854,6 +966,7 @@
     ]
   },
   {
+    "slug": "croissant",
     "name_th": "ครัวซองต์",
     "name_en": "Croissant",
     "cuisine": [
@@ -861,6 +974,7 @@
     ]
   },
   {
+    "slug": "waffle",
     "name_th": "วาฟเฟิล",
     "name_en": "Waffle",
     "cuisine": [
@@ -868,6 +982,7 @@
     ]
   },
   {
+    "slug": "egg-tart",
     "name_th": "ทาร์ตไข่",
     "name_en": "Egg Tart",
     "cuisine": [
@@ -875,6 +990,7 @@
     ]
   },
   {
+    "slug": "crepe",
     "name_th": "เครป",
     "name_en": "Crepe",
     "cuisine": [
@@ -882,6 +998,7 @@
     ]
   },
   {
+    "slug": "eclair",
     "name_th": "เอแคลร์",
     "name_en": "Eclair",
     "cuisine": [
@@ -889,6 +1006,7 @@
     ]
   },
   {
+    "slug": "donut",
     "name_th": "โดนัท",
     "name_en": "Donut",
     "cuisine": [
@@ -896,6 +1014,7 @@
     ]
   },
   {
+    "slug": "mont-blanc",
     "name_th": "มองต์บลังค์",
     "name_en": "Mont Blanc",
     "cuisine": [
@@ -903,6 +1022,7 @@
     ]
   },
   {
+    "slug": "tiramisu",
     "name_th": "ทีรามิสุ",
     "name_en": "Tiramisu",
     "cuisine": [
@@ -910,6 +1030,7 @@
     ]
   },
   {
+    "slug": "banoffee",
     "name_th": "บานอฟฟี่",
     "name_en": "Banoffee",
     "cuisine": [
@@ -917,6 +1038,7 @@
     ]
   },
   {
+    "slug": "khanom-kai",
     "name_th": "ขนมไข่",
     "name_en": "Khanom Kai (Thai Egg Cake)",
     "cuisine": [
@@ -925,6 +1047,7 @@
     ]
   },
   {
+    "slug": "choux-cream",
     "name_th": "ชูครีม",
     "name_en": "Choux Cream",
     "cuisine": [
@@ -932,6 +1055,7 @@
     ]
   },
   {
+    "slug": "cookie",
     "name_th": "คุกกี้",
     "name_en": "Cookie",
     "cuisine": [
@@ -939,6 +1063,7 @@
     ]
   },
   {
+    "slug": "croffle",
     "name_th": "ครอฟเฟิล",
     "name_en": "Croffle",
     "cuisine": [
@@ -946,6 +1071,7 @@
     ]
   },
   {
+    "slug": "shortcake",
     "name_th": "ชอร์ตเค้ก",
     "name_en": "Shortcake",
     "cuisine": [
@@ -953,6 +1079,7 @@
     ]
   },
   {
+    "slug": "pudding",
     "name_th": "พุดดิ้ง",
     "name_en": "Pudding",
     "cuisine": [
@@ -960,6 +1087,7 @@
     ]
   },
   {
+    "slug": "roll-cake",
     "name_th": "เค้กโรล",
     "name_en": "Roll Cake",
     "cuisine": [
@@ -967,6 +1095,7 @@
     ]
   },
   {
+    "slug": "rang-nok",
     "name_th": "รังนก",
     "name_en": "Rang Nok (Bird's Nest Dessert)",
     "cuisine": [
@@ -975,6 +1104,7 @@
     ]
   },
   {
+    "slug": "khanom-ko",
     "name_th": "ขนมโก๋",
     "name_en": "Khanom Ko (Chewy Rice Flour Dessert)",
     "cuisine": [
@@ -982,6 +1112,7 @@
     ]
   },
   {
+    "slug": "cheng-teng",
     "name_th": "เช็งทึง",
     "name_en": "Cheng Teng (Chinese Sweet Soup)",
     "cuisine": [
@@ -989,6 +1120,7 @@
     ]
   },
   {
+    "slug": "pancake",
     "name_th": "แพนเค้ก",
     "name_en": "Pancake",
     "cuisine": [
@@ -996,6 +1128,7 @@
     ]
   },
   {
+    "slug": "rang-nok-nom-sod",
     "name_th": "รังนกนมสด",
     "name_en": "Rang Nok Nom Sod (Bird's Nest Dessert with Fresh Milk)",
     "cuisine": [
@@ -1004,6 +1137,7 @@
     ]
   },
   {
+    "slug": "pandan-coconut-cake",
     "name_th": "เค้กใบเตยมะพร้าวอ่อน",
     "name_en": "Pandan Coconut Cake",
     "cuisine": [
@@ -1011,6 +1145,7 @@
     ]
   },
   {
+    "slug": "chiffon-cake",
     "name_th": "ชิฟฟ่อน",
     "name_en": "Chiffon Cake",
     "cuisine": [
@@ -1018,6 +1153,7 @@
     ]
   },
   {
+    "slug": "cupcake",
     "name_th": "คัพเค้ก",
     "name_en": "Cupcake",
     "cuisine": [
@@ -1025,6 +1161,7 @@
     ]
   },
   {
+    "slug": "muffin",
     "name_th": "มัฟฟิน",
     "name_en": "Muffin",
     "cuisine": [
@@ -1032,6 +1169,7 @@
     ]
   },
   {
+    "slug": "scone",
     "name_th": "สโคน",
     "name_en": "Scone",
     "cuisine": [
@@ -1039,6 +1177,7 @@
     ]
   },
   {
+    "slug": "pueak-hima",
     "name_th": "เผือกหิมะ",
     "name_en": "Pueak Hima (Crispy Sugar Coated Taro)",
     "cuisine": [
@@ -1047,6 +1186,7 @@
     ]
   },
   {
+    "slug": "ngoh-loi-kaew",
     "name_th": "เงาะลอยแก้ว",
     "name_en": "Ngoh Loi Kaew (Rambutan in Syrup)",
     "cuisine": [
@@ -1055,6 +1195,7 @@
     ]
   },
   {
+    "slug": "look-tan-loi-kaew",
     "name_th": "ลูกตาลลอยแก้ว",
     "name_en": "Look Tan Loi Kaew (Palm Fruit in Syrup)",
     "cuisine": [
@@ -1063,6 +1204,7 @@
     ]
   },
   {
+    "slug": "khanom-pang-sangkhaya-bai-toey",
     "name_th": "ขนมปังสังขยาใบเตย",
     "name_en": "Khanom Pang Sangkhaya Bai Toey (Pandan Custard Toast)",
     "cuisine": [
@@ -1071,6 +1213,7 @@
     ]
   },
   {
+    "slug": "pang-yen",
     "name_th": "ปังเย็น",
     "name_en": "Pang Yen (Thai Shaved-ice with Toast)",
     "cuisine": [
@@ -1079,6 +1222,7 @@
     ]
   },
   {
+    "slug": "sangkhaya-fak-thong",
     "name_th": "สังขยาฟักทอง",
     "name_en": "Sangkhaya Fak Thong (Thai Coconut Pumpkin Custard)",
     "cuisine": [
@@ -1087,6 +1231,7 @@
     ]
   },
   {
+    "slug": "turian-tod",
     "name_th": "ทุเรียนทอด",
     "name_en": "Turian Tod (Fried Durian)",
     "cuisine": [
@@ -1095,6 +1240,7 @@
     ]
   },
   {
+    "slug": "popcorn",
     "name_th": "ป็อปคอร์น",
     "name_en": "Popcorn",
     "cuisine": [
@@ -1102,6 +1248,7 @@
     ]
   },
   {
+    "slug": "khao-phot-klook-noei",
     "name_th": "ข้าวโพดคลุกเนย",
     "name_en": "Khao Phot Klook Noei (Thai Butter Sweet Corn)",
     "cuisine": [
@@ -1109,6 +1256,7 @@
     ]
   },
   {
+    "slug": "panna-cotta",
     "name_th": "พานาคอตต้า",
     "name_en": "Panna Cotta",
     "cuisine": [
@@ -1116,6 +1264,7 @@
     ]
   },
   {
+    "slug": "crepe-cake",
     "name_th": "เครปเค้ก",
     "name_en": "Crepe Cake",
     "cuisine": [
@@ -1123,6 +1272,7 @@
     ]
   },
   {
+    "slug": "krong-kraeng-grob",
     "name_th": "ครองแครงกรอบ",
     "name_en": "Krong Kraeng Grob (Thai Crunchy Deep-fried Caramelized Cookies)",
     "cuisine": [
@@ -1131,6 +1281,7 @@
     ]
   },
   {
+    "slug": "daifuku",
     "name_th": "ไดฟุกุ",
     "name_en": "Daifuku",
     "cuisine": [
@@ -1138,6 +1289,7 @@
     ]
   },
   {
+    "slug": "khao-lam",
     "name_th": "ข้าวหลาม",
     "name_en": "Khao Lam (Thai Sticky Rice in Bamboo Tube)",
     "cuisine": [
@@ -1146,6 +1298,7 @@
     ]
   },
   {
+    "slug": "roti",
     "name_th": "โรตี",
     "name_en": "Roti (Thai-style Pancake)",
     "cuisine": [
@@ -1154,6 +1307,7 @@
     ]
   },
   {
+    "slug": "roti-sai-mai",
     "name_th": "โรตีสายไหม",
     "name_en": "Roti Sai Mai (Thai-style Thin Pancake Wraps Filled with Cotton Candy Strands)",
     "cuisine": [
@@ -1162,6 +1316,7 @@
     ]
   },
   {
+    "slug": "chewy-shell-shaped-glutinous-rice-dumpling-in-coconut-milk",
     "name_th": "ครองแครงกะทิสด",
     "name_en": "Chewy Shell-shaped Glutinous Rice Dumpling in Coconut Milk",
     "cuisine": [

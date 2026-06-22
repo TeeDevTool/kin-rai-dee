@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getDishesWithContent } from "@/server/data/dishes";
 
 const BASE_URL = "https://www.kinraidee.info";
 const LOCALES = ["th", "en"] as const;
@@ -10,8 +11,10 @@ type RouteDef = {
 };
 
 // Path is appended after the locale prefix. "" = locale home.
-const ROUTES: RouteDef[] = [
+const STATIC_ROUTES: RouteDef[] = [
   { path: "", changeFrequency: "weekly", priority: 1 },
+  { path: "/food", changeFrequency: "weekly", priority: 0.8 },
+  { path: "/dessert", changeFrequency: "weekly", priority: 0.8 },
   { path: "/about", changeFrequency: "monthly", priority: 0.6 },
   { path: "/contact-us", changeFrequency: "monthly", priority: 0.5 },
   { path: "/privacy-policies", changeFrequency: "yearly", priority: 0.3 },
@@ -20,7 +23,22 @@ const ROUTES: RouteDef[] = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
-  return ROUTES.flatMap((route) =>
+  // Only dishes with curated content are publishable pages, so only they
+  // belong in the sitemap. This auto-scales as more descriptions are added.
+  const dishRoutes: RouteDef[] = [
+    ...getDishesWithContent("food").map((d) => ({
+      path: `/food/${d.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...getDishesWithContent("dessert").map((d) => ({
+      path: `/dessert/${d.slug}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...STATIC_ROUTES, ...dishRoutes].flatMap((route) =>
     LOCALES.map((locale) => ({
       url: `${BASE_URL}/${locale}${route.path}`,
       lastModified,

@@ -24,6 +24,18 @@ export async function Navigator() {
       </svg>
       <Link
         className="text-primary text-label1 hover:text-secondary cursor-pointer transition-all hover:font-medium"
+        href={`/${locale}/food`}
+      >
+        {t("food")}
+      </Link>
+      <Link
+        className="text-primary text-label1 hover:text-secondary cursor-pointer transition-all hover:font-medium"
+        href={`/${locale}/dessert`}
+      >
+        {t("dessert")}
+      </Link>
+      <Link
+        className="text-primary text-label1 hover:text-secondary cursor-pointer transition-all hover:font-medium"
         href={`/${locale}/about`}
       >
         {t("about")}

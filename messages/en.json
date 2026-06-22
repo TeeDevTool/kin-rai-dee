@@ -16,7 +16,9 @@
   "footer": {
     "contact_us": "Contact us",
     "privacy_policies": "Privacy policy",
-    "about": "About"
+    "about": "About",
+    "food": "Dishes",
+    "dessert": "Desserts"
   },
   "filters": {
     "all": "All",
@@ -60,6 +62,34 @@
   "back_to_home": "Back to home",
   "th": "Thai",
   "en": "English",
+  "dish": {
+    "food_hub_title": "Thai & Asian Dishes — What to Eat",
+    "food_hub_description": "Browse our growing collection of savory Thai, Chinese, Korean, Japanese, and Western dishes. Discover what each one tastes like, where it comes from, and why it's worth trying.",
+    "dessert_hub_title": "Thai & Asian Desserts — Sweet Picks",
+    "dessert_hub_description": "Explore Thai and Western desserts, from mango sticky rice to classic cakes. Learn what makes each sweet treat special.",
+    "food_hub_heading": "Savory dishes",
+    "dessert_hub_heading": "Desserts",
+    "hub_intro_food": "Can't decide what to eat? Browse the dishes below to learn about each one, then head to the homepage to let us pick one for you at random.",
+    "hub_intro_dessert": "In the mood for something sweet? Browse our desserts below, then let the randomizer surprise you on the homepage.",
+    "read_more": "Read more",
+    "about_heading": "About this dish",
+    "details_heading": "At a glance",
+    "related_heading": "You might also like",
+    "cuisine_label": "Cuisine",
+    "region_label": "Region",
+    "spice_label": "Spice level",
+    "dietary_label": "Good to know",
+    "spice_mild": "Mild / not spicy",
+    "spice_hot": "Spicy",
+    "spice_both": "Mild or spicy (your choice)",
+    "tag_healthy": "Healthy",
+    "tag_soft_diet": "Soft / easy to digest",
+    "tag_noodle": "Noodle dish",
+    "back_to_food_hub": "All dishes",
+    "back_to_dessert_hub": "All desserts",
+    "randomize_cta": "Can't decide? Surprise me",
+    "more_coming": "More dishes are being added regularly — check back soon!"
+  },
   "about": {
     "title": "About KinRaiDee",
     "intro_heading": "What is KinRaiDee?",

@@ -1,2550 +1,3747 @@
 [
   {
+    "slug": "moo-tod-kratiem",
     "name_th": "หมูทอดกระเทียม",
     "name_en": "Moo Tod Kratiem (Garlic Stir Fried Pork)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khao-man-gai",
     "name_th": "ข้าวมันไก่",
     "name_en": "Khao Man Gai (Chicken Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": false
+    "isNoodle": false,
+    "description_en": "Khao Man Gai is Thailand's beloved take on Hainanese chicken rice: poached chicken served over rice cooked in the chicken's own fat and stock until fragrant and glossy. The dish lives or dies by its dipping sauce, a punchy blend of fermented soybean, ginger, garlic, and chili that cuts through the richness. A small bowl of clear soup usually comes alongside. It is light, clean, and endlessly satisfying, a perfect choice when you want comfort without heat.",
+    "description_th": "ข้าวมันไก่คือเวอร์ชันสุดที่รักของคนไทยจากข้าวมันไก่ไหหลำ ไก่ต้มเสิร์ฟบนข้าวที่หุงกับมันไก่และน้ำซุปจนหอมและเป็นเงางาม หัวใจของจานนี้อยู่ที่น้ำจิ้มเต้าเจี้ยวรสจัดผสมขิง กระเทียม และพริก ที่ช่วยตัดความมัน มักเสิร์ฟพร้อมน้ำซุปใสถ้วยเล็ก รสชาติเบา สะอาด และอร่อยไม่มีเบื่อ เหมาะมากเวลาอยากกินอะไรสบายๆ ไม่เผ็ด"
   },
   {
+    "slug": "khao-moo-daeng",
     "name_th": "ข้าวหมูแดง",
     "name_en": "Khao Moo Daeng (Red BBQ Pork with Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-pak-bung",
     "name_th": "ผัดผักบุ้ง",
     "name_en": "Pad Pak Bung (Stir-fried Morning Glory)",
     "spicy": "TRUE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-jued-tao-hoo-moo-sab",
     "name_th": "แกงจืดเต้าหู้หมูสับ",
     "name_en": "Gaeng Jued Tao Hoo Moo Sab (Clear Soup with Tofu and Minced Pork)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-thai",
     "name_th": "ผัดไท",
     "name_en": "Pad Thai (Thai Style Stir-fried Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": true
+    "isNoodle": true,
+    "description_en": "Pad Thai is Thailand's most internationally recognized noodle dish: thin rice noodles stir-fried over high heat with egg, firm tofu, dried shrimp, and crunchy bean sprouts, then bound in a tamarind sauce that balances sour, sweet, and salty. It is finished tableside with crushed peanuts, a wedge of lime, and a pinch of chili flakes so each diner can fine-tune the flavor. Born as a national dish promoted in the 1930s and 40s, it has since become street-food shorthand for Thai cuisine itself. Order it with fresh shrimp or chicken, and add the chili and lime generously for the authentic punch.",
+    "description_th": "ผัดไทเป็นเมนูเส้นที่เป็นที่รู้จักมากที่สุดของไทยในระดับโลก เส้นจันท์ผัดไฟแรงกับไข่ เต้าหู้ กุ้งแห้ง และถั่วงอกกรอบๆ คลุกเคล้ากับซอสมะขามเปียกที่ให้รสเปรี้ยว หวาน เค็มกลมกล่อม เสิร์ฟพร้อมถั่วลิสงป่น มะนาวซีก และพริกป่นให้ปรุงเพิ่มได้ตามใจชอบ ผัดไทถือกำเนิดเป็นอาหารประจำชาติที่ถูกส่งเสริมในยุคปี พ.ศ. 2480 และกลายเป็นตัวแทนของสตรีทฟู้ดไทยมาจนทุกวันนี้ สั่งแบบใส่กุ้งสดหรือไก่ แล้วบีบมะนาวใส่พริกให้จัดจ้านแบบต้นตำรับ"
   },
   {
+    "slug": "tao-hoo-song-krueng",
     "name_th": "เต้าหู้ทรงเครื่อง",
     "name_en": "Tao Hoo Song Krueng (Stuffed Tofu with Minced Pork)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tom-yum-goong",
     "name_th": "ต้มยำกุ้ง",
     "name_en": "Tom Yum Goong (Spicy and Sour Shrimp Soup)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": false
+    "isNoodle": false,
+    "description_en": "Tom Yum Goong is the quintessential Thai hot-and-sour soup, a clear or creamy broth simmered with plump river prawns. Its unmistakable aroma comes from lemongrass, galangal, kaffir lime leaves, and fresh chili, brightened with lime juice and fish sauce for a fiery, tangy kick. The soup is prized as much for its medicinal, herb-forward fragrance as for its bold heat. Serve it piping hot with steamed jasmine rice, and choose the nam khon (creamy) version if you prefer a richer, milkier broth.",
+    "description_th": "ต้มยำกุ้งคือซุปรสจัดที่เป็นเอกลักษณ์ที่สุดของไทย น้ำซุปแบบใสหรือข้นต้มกับกุ้งแม่น้ำตัวโต กลิ่นหอมอันเป็นเอกลักษณ์มาจากตะไคร้ ข่า ใบมะกรูด และพริกสด ตัดรสด้วยน้ำมะนาวและน้ำปลาให้ได้รสเปรี้ยวเผ็ดถึงใจ เสน่ห์ของต้มยำอยู่ที่กลิ่นสมุนไพรที่หอมชื่นใจพอๆ กับความเผ็ดร้อน ทานร้อนๆ คู่กับข้าวสวยหอมมะลิ ใครชอบน้ำข้นนัวๆ ให้สั่งแบบน้ำข้น"
   },
   {
+    "slug": "kai-pa-lo",
     "name_th": "ไข่พะโล้",
     "name_en": "Kai Pa Lo (Five-Spice Eggs and Pork Stew)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-jued",
     "name_th": "แกงจืด",
     "name_en": "Gaeng Jued (Clear Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "khao-tom",
     "name_th": "ข้าวต้ม",
     "name_en": "Khao Tom (Rice Porridge)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "yum-pla-dook-fu",
     "name_th": "ยำปลาดุกฟู",
     "name_en": "Yum Pla Dook Fu (Crispy Catfish Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tod-mun",
     "name_th": "ทอดมัน",
     "name_en": "Tod Mun (Thai Fish Cakes)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-pak-bung-fai-daeng",
     "name_th": "ผัดผักบุ้งไฟแดง",
     "name_en": "Pad Pak Bung Fai Daeng (Stir-fried Morning Glory with Chili)",
     "spicy": "TRUE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "hu-sha-lam",
     "name_th": "หูฉลาม",
     "name_en": "Hu Sha Lam (Shark Fin Soup)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "khanom-jeen-nam-ya",
     "name_th": "ขนมจีนน้ำยา",
     "name_en": "Khanom Jeen Nam Ya (Rice Noodles with Fish Curry Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL", "SOUTHERN"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL",
+      "SOUTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "hor-mok",
     "name_th": "ห่อหมก",
     "name_en": "Hor Mok (Thai Steamed Fish Curry)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-ka-prao",
     "name_th": "ผัดกะเพรา",
     "name_en": "Pad Ka Prao (Stir-fried Holy Basil with Meat)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": false
+    "isNoodle": false,
+    "description_en": "Pad Ka Prao is the go-to comfort meal across Thailand: minced or sliced meat stir-fried hard and fast with garlic, chili, and a generous handful of holy basil, whose peppery, clove-like aroma defines the dish. It is almost always served over rice and crowned with a crispy fried egg (khai dao), the runny yolk softening the heat. Quick, cheap, and intensely savory, it is what locals order when they cannot decide what to eat. Ask for it phet (spicy) and do not skip the fried egg.",
+    "description_th": "ผัดกะเพราคือเมนูสามัญประจำใจของคนไทยทั้งประเทศ เนื้อสับหรือหั่นผัดไฟแรงกับกระเทียม พริก และใบกะเพราเต็มกำมือ ที่ให้กลิ่นฉุนเผ็ดร้อนอันเป็นเอกลักษณ์ มักราดบนข้าวสวยและท็อปด้วยไข่ดาวกรอบๆ ที่ไข่แดงเยิ้มช่วยตัดความเผ็ดได้ดี ทั้งเร็ว ถูก และรสจัดจ้าน เป็นเมนูที่คนไทยสั่งเวลาคิดไม่ออกว่าจะกินอะไร สั่งแบบเผ็ดๆ และอย่าลืมไข่ดาว"
   },
   {
+    "slug": "gaeng-keow-wan",
     "name_th": "แกงเขียวหวาน",
     "name_en": "Gaeng Keow Wan (Green Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL", "SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL",
+      "SOUTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": false
+    "isNoodle": false,
+    "description_en": "Gaeng Keow Wan, or green curry, takes its name and color from a paste pounded with fresh green chilies, lemongrass, galangal, and coriander root. Simmered in coconut milk, it turns silky and sweet-spicy, studded with Thai eggplant, bamboo shoots, sweet basil, and your choice of chicken, beef, or fish balls. It is one of the richest and most fragrant of the Thai curries, hotter than its mild color suggests. Ladle it over rice or pair it with roti or rice noodles (khanom jeen).",
+    "description_th": "แกงเขียวหวานได้ชื่อและสีเขียวมาจากพริกแกงที่โขลกจากพริกเขียวสด ตะไคร้ ข่า และรากผักชี เคี่ยวในกะทิจนเนียนนุ่ม รสหวานนำเผ็ดตาม ใส่มะเขือเปราะ หน่อไม้ ใบโหระพา และเลือกเนื้อไก่ เนื้อวัว หรือลูกชิ้นปลาได้ตามชอบ เป็นหนึ่งในแกงไทยที่เข้มข้นและหอมที่สุด และเผ็ดกว่าที่สีอ่อนๆ ทำให้คิด ราดข้าวสวยร้อนๆ หรือทานคู่โรตีหรือขนมจีนก็เข้ากัน"
   },
   {
+    "slug": "khao-kha-moo",
     "name_th": "ข้าวขาหมู",
     "name_en": "Khao Kha Moo (Braised Pork Leg with Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khao-pad",
     "name_th": "ข้าวผัด",
     "name_en": "Khao Pad (Fried Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-pla-kra-pong",
     "name_th": "ยำปลากระป๋อง",
     "name_en": "Yum Pla Kra Pong (Spicy Canned Fish Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "burger",
     "name_th": "เบอร์เกอร์",
     "name_en": "Burger",
     "spicy": "BOTH",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kebab",
     "name_th": "เคบับ",
     "name_en": "Kebab",
     "spicy": "BOTH",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "taco",
     "name_th": "ทาโก้",
     "name_en": "Taco",
     "spicy": "BOTH",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khao-moo-krob",
     "name_th": "ข้าวหมูกรอบ",
     "name_en": "Khao Moo Krob (Crispy Pork Belly with Rice)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": false
+    "isNoodle": false,
+    "description_en": "Khao Moo Krob is crispy pork belly served over rice, a Thai-Chinese favorite found at countless rice-and-curry stalls. The pork is slow-cooked then fried so the skin shatters with a satisfying crunch while the meat underneath stays tender and juicy. It is typically plated with sweet Chinese broccoli (kana), a sweet-savory gravy, and a sharp chili-vinegar dip on the side. Simple but addictive, it is best eaten the moment it hits the plate while the crackling is still crisp.",
+    "description_th": "ข้าวหมูกรอบคือหมูสามชั้นทอดกรอบราดบนข้าว เมนูไทย-จีนยอดนิยมที่หาได้ตามร้านข้าวแกงทั่วไป หมูถูกต้มจนนุ่มแล้วนำไปทอดให้หนังกรอบเปาะ ส่วนเนื้อด้านในยังนุ่มฉ่ำ มักเสิร์ฟคู่คะน้า ราดน้ำราดรสหวานเค็ม และมีน้ำจิ้มพริกน้ำส้มรสจี๊ดจ๊าดเคียงข้าง เรียบง่ายแต่กินเพลิน ควรกินทันทีที่เสิร์ฟตอนหนังยังกรอบ"
   },
   {
+    "slug": "ba-mee-moo-daeng",
     "name_th": "บะหมี่หมูแดง",
     "name_en": "Ba Mee Moo Daeng (BBQ Pork with Egg Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "ba-mee-moo-krob",
     "name_th": "บะหมี่หมูกรอบ",
     "name_en": "Ba Mee Moo Krob (Crispy Pork with Egg Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "guay-tiew-moo-tun",
     "name_th": "ก๋วยเตี๋ยวหมูตุ๋น",
     "name_en": "Guay Tiew Moo Tun (Braised Pork Noodle Soup)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "guay-tiew-reua",
     "name_th": "ก๋วยเตี๋ยวเรือ",
     "name_en": "Guay Tiew Reua (Boat Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": true
+    "isNoodle": true,
+    "description_en": "Guay Tiew Reua, or boat noodles, gets its name from the canal boats from which it was once sold around Bangkok. The broth is dark, intense, and deeply savory, traditionally seasoned with a touch of pork or beef blood that thickens it and rounds out the flavor. Served in famously small bowls, it is meant to be eaten several at a time, layered with tender meat, meatballs, morning glory, and crispy pork rind. Season your bowl with chili, vinegar, and sugar, and stack up the empty bowls the local way.",
+    "description_th": "ก๋วยเตี๋ยวเรือได้ชื่อมาจากเรือในคลองที่เคยพายขายไปทั่วกรุงเทพฯ น้ำซุปสีเข้ม รสจัดนัวลึก ปรุงตามตำรับด้วยเลือดหมูหรือเลือดวัวเล็กน้อยที่ช่วยให้น้ำข้นและกลมกล่อม เสิร์ฟในชามเล็กอันเป็นเอกลักษณ์ จึงต้องกินทีละหลายๆ ชาม ใส่เนื้อนุ่มๆ ลูกชิ้น ผักบุ้ง และแคบหมูกรอบ ปรุงด้วยพริก น้ำส้ม และน้ำตาล แล้ววางชามซ้อนกันแบบฉบับคนท้องถิ่น"
   },
   {
+    "slug": "khanom-jeen-nam-ngiew",
     "name_th": "ขนมจีนน้ำเงี้ยว",
     "name_en": "Khanom Jeen Nam Ngiew (Rice Noodles with Spicy Northern Style Sauce)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "khanom-jeen-nam-prik",
     "name_th": "ขนมจีนน้ำพริก",
     "name_en": "Khanom Jeen Nam Prik (Rice Noodles with Spicy Coconut Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "gaeng-pa",
     "name_th": "แกงป่า",
     "name_en": "Gaeng Pa (Jungle Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-tai-pla",
     "name_th": "แกงไตปลา",
     "name_en": "Gaeng Tai Pla (Southern Style Fish Organ Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-leung",
     "name_th": "แกงเหลือง",
     "name_en": "Gaeng Leung (Southern Style Yellow Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-om",
     "name_th": "แกงอ่อม",
     "name_en": "Gaeng Om (Northern Style Herbal Soup)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-som",
     "name_th": "แกงส้ม",
     "name_en": "Gaeng Som (Sour Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL", "SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL",
+      "SOUTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "hoy-jor",
     "name_th": "ฮ่อยจ๊อปูทอดกรอบ",
     "name_en": "Hoy Jor (Deep Fried Crab Spring Roll)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-hua-plee",
     "name_th": "ยำหัวปลี",
     "name_en": "Yum Hua Plee (Banana Blossom Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "lon-poo",
     "name_th": "หลนปู",
     "name_en": "Lon Poo (Coconut Crab Dip)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kai-jeow",
     "name_th": "ไข่เจียว",
     "name_en": "Kai Jeow (Thai Style Omelette)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-pla-sa-lid",
     "name_th": "ยำปลาสลิด",
     "name_en": "Yum Pla Sa Lid (Crispy Gourami Fish Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-kai-dao",
     "name_th": "ยำไข่ดาว",
     "name_en": "Yum Kai Dao (Fried Egg Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-mama",
     "name_th": "ยำมาม่า",
     "name_en": "Yum Mama (Instant Noodle Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "yum-gai-krob",
     "name_th": "ยำไก่กรอบ",
     "name_en": "Yum Gai Krob (Crispy Chicken Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-woon-sen",
     "name_th": "ยำวุ้นเส้น",
     "name_en": "Yum Woon Sen (Glass Noodle Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "yum-moo-yor",
     "name_th": "ยำหมูยอ",
     "name_en": "Yum Moo Yor (Vietnamese Sausage Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI", "VIETNAMESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "VIETNAMESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-nam-liab",
     "name_th": "ผัดหนำเลี้ยบ",
     "name_en": "Pad Nam Liab (Stir-fried Chinese Olive with Minced Pork)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "rad-na-pla-tao-see",
     "name_th": "ราดหน้าปลาเต้าซี่",
     "name_en": "Rad Na Pla Tao See (Rice Noodles with Fish in Black Bean Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "poo-nim-tod-kratiem",
     "name_th": "ปูนิ่มทอดกระเทียม",
     "name_en": "Poo Nim Tod Kratiem (Soft Shell Crab with Garlic)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gai-tod-klua",
     "name_th": "ไก่ทอดเกลือ",
     "name_en": "Gai Tod Klua (Salted Fried Chicken)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gai-tod-had-yai",
     "name_th": "ไก่ทอดหาดใหญ่",
     "name_en": "Gai Tod Had Yai (Had Yai Style Fried Chicken)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gai-yang",
     "name_th": "ไก่ย่าง",
     "name_en": "Gai Yang (Grilled Chicken)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "muek-tod-kratiem",
     "name_th": "หมึกทอดกระเทียม",
     "name_en": "Muek Tod Kratiem (Fried Squid with Garlic)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "moo-ma-now",
     "name_th": "หมูมะนาว",
     "name_en": "Moo Ma Now (Spicy Lime Pork)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pla-neung-ma-now",
     "name_th": "ปลานึ่งมะนาว",
     "name_en": "Pla Neung Ma Now (Steamed Fish with Lime Sauce)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "yum-sam-krob",
     "name_th": "ยำสามกรอบ",
     "name_en": "Yum Sam Krob (Three Crispy Things Spicy Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-prik-gaeng",
     "name_th": "ผัดพริกแกง",
     "name_en": "Pad Prik Gaeng (Stir-fried with Curry Paste)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khao-pad-tom-yum",
     "name_th": "ข้าวผัดต้มยำ",
     "name_en": "Khao Pad Tom Yum (Tom Yum Fried Rice)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-kana-moo-krob",
     "name_th": "ผัดคะน้าหมูกรอบ",
     "name_en": "Pad Kana Moo Krob (Stir-fried Kale with Crispy Pork)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-kha-naa-moo-krob",
     "name_th": "ผัดแขนงหมูกรอบ",
     "name_en": "Pad Kha Naa Moo Krob (Stir-fried Chinese Broccoli with Crispy Pork)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gui-chai-khao-pad-tao-hoo",
     "name_th": "กุ้ยช่ายขาวผัดเต้าหู้",
     "name_en": "Gui Chai Khao Pad Tao Hoo (Stir-fried Chinese Chive with Tofu)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-gui-chai-khao-moo-krob",
     "name_th": "ผัดกุ้ยช่ายขาวหมูกรอบ",
     "name_en": "Pad Gui Chai Khao Moo Krob (Stir-fried Chinese Chive with Crispy Pork)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "moo-pad-prik-khing",
     "name_th": "หมูผัดพริกขิง",
     "name_en": "Moo Pad Prik Khing (Stir-fried Pork with Ginger Chili Paste)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "goong-tod-kratiem",
     "name_th": "กุ้งทอดกระเทียม",
     "name_en": "Goong Tod Kratiem (Fried Shrimp with Garlic)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "moo-krob-khua-prik-klua",
     "name_th": "หมูกรอบคั่วพริกเกลือ",
     "name_en": "Moo Krob Khua Prik Klua (Stir-fried Crispy Pork with Chili and Salt)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-ped",
     "name_th": "แกงเผ็ด",
     "name_en": "Gaeng Ped (Red Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "jok",
     "name_th": "โจ๊ก",
     "name_en": "Jok (Rice Porridge)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-see-ew",
     "name_th": "ผัดซีอิ๊ว",
     "name_en": "Pad See Ew (Stir-fried Rice Noodles with Soy Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "rad-na",
     "name_th": "ราดหน้า",
     "name_en": "Rad Na (Rice Noodles in Gravy Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "hoy-tod",
     "name_th": "หอยทอด",
     "name_en": "Hoy Tod (Crispy Oyster Omelette)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "or-suan",
     "name_th": "ออส่วน",
     "name_en": "Or Suan (Oyster Omelette with Starch)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "ped-yang",
     "name_th": "เป็ดย่าง",
     "name_en": "Ped Yang (Roasted Duck)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "goong-dong-see-ew",
     "name_th": "กุ้งดองซีอิ๊ว",
     "name_en": "Goong Dong See Ew (Shrimp in Soy Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "JAPANESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "poo-dong-see-ew",
     "name_th": "ปูดองซีอิ๊ว",
     "name_en": "Poo Dong See Ew (Crab in Soy Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "JAPANESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "som-tam",
     "name_th": "ส้มตำ",
     "name_en": "Som Tam (Papaya Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
-    "isNoodle": false
+    "isNoodle": false,
+    "description_en": "Som Tam is the fiery green papaya salad that anchors the food of Thailand's northeastern Isan region. Shredded unripe papaya is pounded in a clay mortar with garlic, bird's-eye chili, lime, fish sauce, palm sugar, tomatoes, and long beans, producing a salad that is at once sour, sweet, salty, and searingly spicy. Variations range from the classic Thai version with peanuts to the funkier som tam pla ra made with fermented fish. It pairs perfectly with sticky rice and grilled chicken, and you can ask for fewer chilies if you are new to it.",
+    "description_th": "ส้มตำคือยำมะละกอรสแซ่บที่เป็นหัวใจของอาหารอีสาน มะละกอดิบสับเส้นตำในครกดินกับกระเทียม พริกขี้หนู มะนาว น้ำปลา น้ำตาลปี๊บ มะเขือเทศ และถั่วฝักยาว ได้รสเปรี้ยว หวาน เค็ม เผ็ดครบในจานเดียว มีหลายแบบตั้งแต่ส้มตำไทยใส่ถั่วลิสง ไปจนถึงส้มตำปลาร้ารสนัวจัดจ้าน ทานคู่ข้าวเหนียวและไก่ย่างเข้ากันที่สุด ใครยังไม่ชินเผ็ดสั่งพริกน้อยได้"
   },
   {
+    "slug": "man-poo-yang",
     "name_th": "มันปูย่าง",
     "name_en": "Man Poo Yang (Grilled Crab Fat)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tam-khanom-jeen",
     "name_th": "ตำขนมจีน",
     "name_en": "Tam Khanom Jeen (Spicy Rice Noodle Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "khao-moo-tun",
     "name_th": "ข้าวหมูตุ๋น",
     "name_en": "Khao Moo Tun (Stewed Pork with Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "khao-pad-poo",
     "name_th": "ข้าวผัดปู",
     "name_en": "Khao Pad Poo (Crab Fried Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "suki-haeng",
     "name_th": "สุกี้แห้ง",
     "name_en": "Suki Haeng (Dry Sukiyaki)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "suki-nam",
     "name_th": "สุกี้น้ำ",
     "name_en": "Suki Nam (Sukiyaki Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "guay-tiew-nam-tok",
     "name_th": "ก๋วยเตี๋ยวน้ำตก",
     "name_en": "Guay Tiew Nam Tok (Noodles with Grilled Beef)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "guay-tiew-sukhothai",
     "name_th": "ก๋วยเตี๋ยวสุโขทัย",
     "name_en": "Guay Tiew Sukhothai (Sukhothai Style Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "ba-mee-kiao",
     "name_th": "บะหมี่เกี๊ยว",
     "name_en": "Ba Mee Kiao (Egg Noodles with Wontons)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "pad-pong-curry",
     "name_th": "ผัดผงกะหรี่",
     "name_en": "Pad Pong Curry (Yellow Curry Powder Stir-fry)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yen-ta-fo",
     "name_th": "เย็นตาโฟ",
     "name_en": "Yen Ta Fo (Pink Noodle Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "kuay-tiew-sen-krob",
     "name_th": "ก๋วยเตี๋ยวเส้นกรอบ",
     "name_en": "Kuay Tiew Sen Krob (Crispy Noodle)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "gyoza",
     "name_th": "เกี๊ยวซ่า",
     "name_en": "Gyoza (Japanese Dumplings)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khanom-jeeb",
     "name_th": "ขนมจีบ",
     "name_en": "Khanom Jeeb (Chinese Dumpling)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kuay-jab",
     "name_th": "ก๋วยจั๊บ",
     "name_en": "Kuay Jab (Rolled Rice Noodle Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "khao-moo-todd",
     "name_th": "ข้าวหมูทอด",
     "name_en": "Khao Moo Todd (Fried Pork with Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khao-niew-moo-ping",
     "name_th": "ข้าวเหนียวหมูปิ้ง",
     "name_en": "Khao Niew Moo Ping (Grilled Pork with Sticky Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khor-moo-yang",
     "name_th": "คอหมูย่าง",
     "name_en": "Khor Moo Yang (Grilled Pork Neck)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tom-luead-moo",
     "name_th": "ต้มเลือดหมู",
     "name_en": "Tom Luead Moo (Pork Blood Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "khao-mok-gai",
     "name_th": "ข้าวหมกไก่",
     "name_en": "Khao Mok Gai (Thai Biryani)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tom-jued-kai-nam",
     "name_th": "ต้มจืดไข่น้ำ",
     "name_en": "Tom Jued Kai Nam (Clear Soup with Egg)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "kra-poh-pla",
     "name_th": "กระเพาะปลา",
     "name_en": "Kra Poh Pla (Fish Maw Soup)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "kuay-jab-yuan",
     "name_th": "ก๋วยจั๊บญวน",
     "name_en": "Kuay Jab Yuan (Vietnamese Rolled Rice Noodle Soup)",
     "spicy": "FALSE",
-    "cuisine": ["VIETNAMESE"],
+    "cuisine": [
+      "VIETNAMESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "tom-saeb",
     "name_th": "ต้มแซ่บ",
     "name_en": "Tom Saeb (Spicy Isaan Soup)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-mama",
     "name_th": "ผัดมาม่า",
     "name_en": "Pad Mama (Stir-fried Instant Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "pad-woon-sen",
     "name_th": "ผัดวุ้นเส้น",
     "name_en": "Pad Woon Sen (Stir-fried Glass Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "pad-macaroni",
     "name_th": "ผัดมักกะโรนี",
     "name_en": "Pad Macaroni (Stir-fried Macaroni)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "WESTERN"],
+    "cuisine": [
+      "THAI",
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "steak",
     "name_th": "สเต็ก",
     "name_en": "Steak",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "spaghetti",
     "name_th": "สปาเกตตี้",
     "name_en": "Spaghetti",
     "spicy": "BOTH",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "kai-khon",
     "name_th": "ไข่ข้น",
     "name_en": "Kai Khon (Thai-style Scrambled Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "kai-ka-yee",
     "name_th": "ไข่ขยี้",
     "name_en": "Kai Ka-Yee (Thai-style Mashed Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "kai-toon",
     "name_th": "ไข่ตุ๋น",
     "name_en": "Kai Toon (Steamed Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "kai-tom",
     "name_th": "ไข่ต้ม",
     "name_en": "Kai Tom (Boiled Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "kai-krata",
     "name_th": "ไข่กระทะ",
     "name_en": "Kai Krata (Pan-fried Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tom-leng",
     "name_th": "ต้มเล้ง",
     "name_en": "Tom Leng (Chinese Clear Soup)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pizza",
     "name_th": "พิซซ่า",
     "name_en": "Pizza",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kfc",
     "name_th": "เคเอฟซี",
     "name_en": "KFC (Kentucky Fried Chicken)",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "mcdonald-s",
     "name_th": "แมคโดนัลด์",
     "name_en": "McDonald's",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yakisoba",
     "name_th": "ยากิโซบะ",
     "name_en": "Yakisoba (焼きそば)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "ramen",
     "name_th": "ราเมน (ราเมง)",
     "name_en": "Ramen (ラーメン)",
     "spicy": "BOTH",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "katsudon",
     "name_th": "คัตสึด้ง",
     "name_en": "Katsudon (カツ丼)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kuay-tiew-gai-ma-ra",
     "name_th": "ก๋วยเตี๋ยวไก่มะระ",
     "name_en": "Kuay Tiew Gai Ma Ra (Bitter Gourd Chicken Noodle)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "ba-mee-yen",
     "name_th": "บะหมี่เย็น",
     "name_en": "Ba Mee Yen (Cold Egg Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "tonkatsu",
     "name_th": "ทงคัตสึ",
     "name_en": "Tonkatsu (とんかつ)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "takoyaki",
     "name_th": "ทาโกะยากิ",
     "name_en": "Takoyaki (たこ焼き)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-nam-man-hoy",
     "name_th": "ผัดน้ำมันหอย",
     "name_en": "Pad Nam Man Hoy (Stir-fry in Oyster Sauce)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-kee-mao",
     "name_th": "ผัดขี้เมา",
     "name_en": "Pad Kee Mao (Drunken Noodles)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "pad-cha",
     "name_th": "ผัดฉ่า",
     "name_en": "Pad Cha (Spicy Stir-fry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "hoy-lai-pad-cha",
     "name_th": "หอยลายผัดฉ่า",
     "name_en": "Hoy Lai Pad Cha (Spicy Stir-fried Clams)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "mama-pad-kee-mao",
     "name_th": "มาม่าผัดขี้เมา",
     "name_en": "Mama Pad Kee Mao (Spicy Stir-fried Instant Noodles)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "khao-kluk-kapi",
     "name_th": "ข้าวคลุกกะปิ",
     "name_en": "Khao Kluk Kapi (Shrimp Paste Fried Rice)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "larb",
     "name_th": "ลาบ",
     "name_en": "Larb (Spicy Minced Meat Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-pak-ruam",
     "name_th": "ผัดผักรวม",
     "name_en": "Pad Pak Ruam (Stir-fried Mixed Vegetables)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-kala-plee",
     "name_th": "ผัดกะหล่ำปลี",
     "name_en": "Pad Kala Plee (Stir-fried Cabbage)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-pak-krachade",
     "name_th": "ผัดผักกระเฉด",
     "name_en": "Pad Pak Krachade (Stir-fried Water Mimosa)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-broccoli",
     "name_th": "ผัดบร็อกโคลี",
     "name_en": "Pad Broccoli (Stir-fried Broccoli)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "spaghetti-bacon-prik-haeng",
     "name_th": "สปาเกตตี้เบค่อนพริกแห้ง",
     "name_en": "Spaghetti Bacon Prik Haeng (Spicy Bacon Spaghetti)",
     "spicy": "TRUE",
-    "cuisine": ["THAI", "WESTERN"],
+    "cuisine": [
+      "THAI",
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "spaghetti-pad-kee-mao",
     "name_th": "สปาเกตตี้ผัดขี้เมา",
     "name_en": "Spaghetti Pad Kee Mao (Drunken Spaghetti)",
     "spicy": "TRUE",
-    "cuisine": ["THAI", "WESTERN"],
+    "cuisine": [
+      "THAI",
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "yum-hed",
     "name_th": "ยำเห็ด",
     "name_en": "Yum Hed (Spicy Mushroom Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-prik-pao",
     "name_th": "ผัดพริกเผา",
     "name_en": "Pad Prik Pao (Roasted Chili Paste Stir-fry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-prik-yuak",
     "name_th": "ผัดพริกหยวก",
     "name_en": "Pad Prik Yuak (Stir-fried Bell Peppers)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-prik-sod",
     "name_th": "ผัดพริกสด",
     "name_en": "Pad Prik Sod (Stir-fried Fresh Chilies)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "bai-liang-pad-kai",
     "name_th": "ใบเหลียงผัดไข่",
     "name_en": "Bai Liang Pad Kai (Stir-fried Melinjo Leaves with Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "dok-kajorn-pad-kai",
     "name_th": "ดอกขจรผัดไข่",
     "name_en": "Dok Kajorn Pad Kai (Stir-fried Cowslip Creeper with Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-horapa",
     "name_th": "ผัดโหระพา",
     "name_en": "Pad Horapa (Holy Basil Stir-fry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-pak-bung-moo-krob",
     "name_th": "ผัดผักบุ้งหมูกรอบ",
     "name_en": "Pad Pak Bung Moo Krob (Stir-fried Morning Glory with Crispy Pork)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-priew-wan",
     "name_th": "ผัดเปรี้ยวหวาน",
     "name_en": "Pad Priew Wan (Sweet and Sour Stir-fry)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kua-prik-klua",
     "name_th": "คั่วพริกเกลือ",
     "name_en": "Kua Prik Klua (Salt and Chili Stir-fry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-prik-klua",
     "name_th": "ผัดเพริกเกลือ",
     "name_en": "Pad Prik Klua (Salt and Chili Stir-fry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gai-pad-med-mamuang",
     "name_th": "ไก่ผัดเม็ดมะม่วง",
     "name_en": "Gai Pad Med Mamuang (Chicken with Cashew Nuts)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-jued-pak-kad-khao",
     "name_th": "แกงจืดผักกาดขาว",
     "name_en": "Gaeng Jued Pak Kad Khao (Clear Soup with Chinese Cabbage)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-liang",
     "name_th": "แกงเลียง",
     "name_en": "Gaeng Liang (Mixed Vegetable Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "kuay-tiew-kua-gai",
     "name_th": "ก๋วยเตี๋ยวคั่วไก่",
     "name_en": "Kuay Tiew Kua Gai (Stir-fried Chicken Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "mee-kluk",
     "name_th": "หมี่คลุก",
     "name_en": "Mee Kluk (Mixed Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "mee-korat",
     "name_th": "หมี่โคราช",
     "name_en": "Mee Korat (Korat-style Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "mee-pad-krachade",
     "name_th": "หมี่ผัดกระเฉด",
     "name_en": "Mee Pad Krachade (Stir-fried Noodles with Water Mimosa)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "mee-gai-cheek",
     "name_th": "หมี่ไก่ฉีก",
     "name_en": "Mee Gai Cheek (Shredded Chicken Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "koy-see-mee",
     "name_th": "โกยซีหมี่",
     "name_en": "Koy See Mee (Crispy Egg Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "salad",
     "name_th": "สลัด",
     "name_en": "Salad",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "salad-roll",
     "name_th": "สลัดโรล",
     "name_en": "Salad Roll",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-jued-yue-pai",
     "name_th": "แกงจืดเยื่อไผ่",
     "name_en": "Gaeng Jued Yue Pai (Clear Soup with Bamboo Pith)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-nor-mai",
     "name_th": "ผัดหน่อไม้",
     "name_en": "Pad Nor Mai (Stir-fried Bamboo Shoots)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "soup-nor-mai",
     "name_th": "ซุปหน่อไม้",
     "name_en": "Soup Nor Mai (Bamboo Shoot Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-nor-mai",
     "name_th": "แกงหน่อไม้",
     "name_en": "Gaeng Nor Mai (Bamboo Shoot Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN", "ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN",
+      "ESAN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "sushi",
     "name_th": "ซูชิ",
     "name_en": "Sushi (寿司)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "sashimi",
     "name_th": "ซาชิมิ",
     "name_en": "Sashimi (刺身)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "udon",
     "name_th": "อูด้ง",
     "name_en": "Udon (うどん)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "tempura",
     "name_th": "เทมปุระ",
     "name_en": "Tempura (天ぷら)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "shabu",
     "name_th": "ชาบู",
     "name_en": "Shabu (しゃぶしゃぶ)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "moo-krata",
     "name_th": "หมูกระทะ",
     "name_en": "Moo Krata (Thai BBQ Hot Pan)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "unagi-don",
     "name_th": "ข้าวหน้าปลาไหล",
     "name_en": "Unagi Don (うなぎ丼)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "salmon-teriyaki",
     "name_th": "แซลม่อนเทริยากิ",
     "name_en": "Salmon Teriyaki (サーモン照り焼き)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "shiojake",
     "name_th": "แซลม่อนย่างเกลือ",
     "name_en": "Shiojake (塩鮭)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "karaage",
     "name_th": "ไก่คาราอาเกะ",
     "name_en": "Karaage (から揚げ)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gyudon",
     "name_th": "ข้าวหน้าเนื้อ",
     "name_en": "Gyudon (牛丼)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "curry-rice",
     "name_th": "ข้าวแกงกะหรี่",
     "name_en": "Curry Rice (カレーライス)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "okonomiyaki",
     "name_th": "โอโคโนมิยากิ",
     "name_en": "Okonomiyaki (お好み焼き)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "namban-chicken",
     "name_th": "ไก่ทอดซอสนัมบัง",
     "name_en": "Namban Chicken (なんばんチキン)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "bibimbap",
     "name_th": "บิบิมบับ",
     "name_en": "Bibimbap (비빔밥)",
     "spicy": "BOTH",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "samgyeopsal",
     "name_th": "ซัมกยอบซัล (หมูสามชั้นย่าง)",
     "name_en": "Samgyeopsal (삼겹살)",
     "spicy": "FALSE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "bulgogi",
     "name_th": "บุลโกกิ",
     "name_en": "Bulgogi (불고기)",
     "spicy": "FALSE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tteokbokki",
     "name_th": "ต๊อกบกกี",
     "name_en": "Tteokbokki (떡볶이)",
     "spicy": "TRUE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "korean-fried-chicken",
     "name_th": "ไก่เกาหลี",
     "name_en": "Korean Fried Chicken (양념치킨)",
     "spicy": "TRUE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "bonchon-chicken",
     "name_th": "บอนชอน",
     "name_en": "Bonchon Chicken",
     "spicy": "TRUE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "samgyetang",
     "name_th": "ซัมกเยทัง (ไก่ตุ๋นโสม)",
     "name_en": "Samgyetang (삼계탕)",
     "spicy": "FALSE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "ped-pa-lo",
     "name_th": "เป็ดพะโล้",
     "name_en": "Ped Pa Lo (Five-Spice Stewed Duck)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "hoy-shell-ob-noey",
     "name_th": "หอยเชลล์อบเนย",
     "name_en": "Hoy Shell Ob Noey (Baked Scallops with Butter)",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "salmon-dong-see-ew",
     "name_th": "แซลม่อนดองซีอิ๊ว",
     "name_en": "Salmon Dong See Ew (Salmon in Soy Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["JAPANESE"],
+    "cuisine": [
+      "JAPANESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-mee-sua",
     "name_th": "ผัดหมี่ซั่ว",
     "name_en": "Pad Mee Sua (Stir-fried Thin Rice Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "nor-mai-pad-kai",
     "name_th": "หน่อไม้ผัดไข่",
     "name_en": "Nor Mai Pad Kai (Stir-fried Bamboo Shoots with Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pasta",
     "name_th": "พาสต้า",
     "name_en": "Pasta",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "jajangmyeon",
     "name_th": "จาจังมยอน (บะหมี่ดำ)",
     "name_en": "Jajangmyeon (자장면) (Black Bean Sauce Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "jjigae",
     "name_th": "จิเก (ซุปเกาหลี)",
     "name_en": "Jjigae (찌개) (Korean Stew)",
     "spicy": "BOTH",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "japchae",
     "name_th": "จับเช (ผัดวุ้นเส้นเกาหลี)",
     "name_en": "Japchae (잡채) (Korean Glass Noodles)",
     "spicy": "FALSE",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "ramyeon",
     "name_th": "รามยอน",
     "name_en": "Ramyeon (라면) (Korean Instant Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["KOREAN"],
+    "cuisine": [
+      "KOREAN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "pad-prik-thai-dam",
     "name_th": "ผัดพริกไทยดำ",
     "name_en": "Pad Prik Thai Dam (Black Pepper Stir-fry)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-kai-yiao-ma",
     "name_th": "ยำไข่เยี่ยวม้า",
     "name_en": "Yum Kai Yiao Ma (Preserved Egg Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-medusa",
     "name_th": "ยำแมงกะพรุน",
     "name_en": "Yum Medusa (Jellyfish Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "goong-chae-nam-pla",
     "name_th": "กุ้งแช่น้ำปลา",
     "name_en": "Goong Chae Nam Pla (Raw Shrimp in Fish Sauce)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "goong-pao",
     "name_th": "กุ้งเผา",
     "name_en": "Goong Pao (Grilled Shrimp)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "hot-pot",
     "name_th": "หม้อไฟ",
     "name_en": "Hot Pot",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pla-kao-rad-prik",
     "name_th": "ปลาเก๋าราดพริก",
     "name_en": "Pla Kao Rad Prik (Grouper with Chili Sauce)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pla-kapong-tod-rad-nam-pla",
     "name_th": "ปลากระพงทอดราดน้ำปลา",
     "name_en": "Pla Kapong Tod Rad Nam Pla (Fried Sea Bass with Fish Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "luak-jim",
     "name_th": "ลวกจิ้ม",
     "name_en": "Luak Jim (Blanched Vegetables with Dipping Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "moo-pad-khing",
     "name_th": "หมูผัดขิง",
     "name_en": "Moo Pad Khing (Stir-fried Pork with Ginger)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-kiam-chai",
     "name_th": "ผัดเกี๊ยมฉ่าย",
     "name_en": "Pad Kiam Chai (Stir-fried Pickled Mustard Greens)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "en-kai-tod",
     "name_th": "เอ็นไก่ทอด",
     "name_en": "En Kai Tod (Deep-fried Chicken Tendons)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "neua-yang",
     "name_th": "เนื้อย่าง",
     "name_en": "Neua Yang (Grilled Beef)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yod-ma-ra-pad-kai",
     "name_th": "ยอดมะระผัดไข่",
     "name_en": "Yod Ma Ra Pad Kai (Stir-fried Bitter Gourd Leaves with Eggs)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "tom-jub-chai",
     "name_th": "ต้มจับฉ่าย",
     "name_en": "Tom Jub Chai (Mixed Vegetable Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pho",
     "name_th": "เฝอ",
     "name_en": "Pho (Phở) (Vietnamese Noodle Soup)",
     "spicy": "FALSE",
-    "cuisine": ["VIETNAMESE"],
+    "cuisine": [
+      "VIETNAMESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "por-pia-sod",
     "name_th": "ปอเปี๊ยะสด",
     "name_en": "Por Pia Sod (Fresh Spring Rolls)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "VIETNAMESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "VIETNAMESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "nam-neung",
     "name_th": "แหนมเนือง",
     "name_en": "Nam Neung (Vietnamese Pork Rolls)",
     "spicy": "FALSE",
-    "cuisine": ["VIETNAMESE"],
+    "cuisine": [
+      "VIETNAMESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kao-lao",
     "name_th": "เกาเหลา",
     "name_en": "Kao Lao (Clear Noodle Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": true
   },
   {
+    "slug": "peking-duck",
     "name_th": "เป็ดปักกิ่ง",
     "name_en": "Peking Duck (北京烤鸭)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "mapo-tofu",
     "name_th": "หม่าโผ่วโตฟู",
     "name_en": "Mapo Tofu (麻婆豆腐)",
     "spicy": "TRUE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "bak-kut-teh",
     "name_th": "บะกุ๊ดเต๋",
     "name_en": "Bak Kut Teh (肉骨茶)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "mala-hot-pot",
     "name_th": "หม่าล่าหม้อไฟ",
     "name_en": "Mala Hot Pot (麻辣火锅)",
     "spicy": "TRUE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "sichuan-soup",
     "name_th": "ซุปเสฉวน",
     "name_en": "Sichuan Soup (四川汤)",
     "spicy": "TRUE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "red-wine-chicken-wings",
     "name_th": "ปีกไก่เหล้าแดง",
     "name_en": "Red Wine Chicken Wings (红酒鸡翅)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "drunken-chicken",
     "name_th": "ไก่แช่เหล้า",
     "name_en": "Drunken Chicken (醉鸡)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-poi-sian",
     "name_th": "ผัดโป๊ยเซียน",
     "name_en": "Pad Poi Sian (Eight Immortals Stir-fry)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pla-neung-see-ew",
     "name_th": "ปลานึ่งซีอิ๊ว",
     "name_en": "Pla Neung See Ew (Steamed Fish with Soy Sauce)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "CHINESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "CHINESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "abalone",
     "name_th": "หอยเป๋าฮื้อ",
     "name_en": "Abalone (鮑魚)",
     "spicy": "FALSE",
-    "cuisine": ["CHINESE"],
+    "cuisine": [
+      "CHINESE"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "ping-yang",
     "name_th": "ปิ้งย่าง",
     "name_en": "Ping Yang (BBQ)",
     "spicy": "FALSE",
-    "cuisine": ["THAI", "KOREAN", "JAPANESE"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "KOREAN",
+      "JAPANESE"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "mushroom-soup",
     "name_th": "ซุปเห็ด",
     "name_en": "Mushroom Soup",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "corn-soup",
     "name_th": "ซุปข้าวโพด",
     "name_en": "Corn Soup",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "lasagna",
     "name_th": "ลาซานญา",
     "name_en": "Lasagna",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "sandwich",
     "name_th": "แซนด์วิช",
     "name_en": "Sandwich",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "fish-and-chips",
     "name_th": "ฟิชแอนด์ชิป",
     "name_en": "Fish and Chips",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "roasted-pork",
     "name_th": "หมูอบ",
     "name_en": "Roasted Pork",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "grilled-sausages",
     "name_th": "ไส้กรอกย่าง",
     "name_en": "Grilled Sausages",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "mashed-potatoes",
     "name_th": "มันบด",
     "name_en": "Mashed Potatoes",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "corn-and-cheese-bake",
     "name_th": "ข้าวโพดอบชีส",
     "name_en": "Corn and Cheese Bake",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "yum-kai-kem",
     "name_th": "ยำไข่เค็ม",
     "name_en": "Yum Kai Kem (Salted Egg Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "khao-soi",
     "name_th": "ข้าวซอย",
     "name_en": "Khao Soi (Northern Thai Curry Noodles)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
-    "isNoodle": true
+    "isNoodle": true,
+    "description_en": "Khao Soi is the signature noodle curry of northern Thailand, reflecting the region's Burmese and Yunnanese influences. Soft egg noodles sit in a rich, golden coconut-curry broth and are topped with a tangle of crispy fried noodles for contrast. It is served with chicken or beef and a plate of pickled mustard greens, shallots, and lime to cut the richness. A bowl of Khao Soi is creamy, mildly spicy, and deeply comforting, the dish to seek out in Chiang Mai.",
+    "description_th": "ข้าวซอยคือเมนูเส้นน้ำแกงประจำภาคเหนือ สะท้อนอิทธิพลพม่าและจีนยูนนานของภูมิภาค เส้นบะหมี่ไข่นุ่มในน้ำแกงกะทิสีทองเข้มข้น ท็อปด้วยเส้นทอดกรอบเพื่อเพิ่มสัมผัส เสิร์ฟพร้อมไก่หรือเนื้อ และเครื่องเคียงอย่างผักกาดดอง หอมแดง และมะนาวไว้ตัดความมัน ข้าวซอยหนึ่งชามให้รสนัวกะทิ เผ็ดนิดๆ และอบอุ่นหัวใจ เป็นเมนูที่ต้องตามไปกินถึงเชียงใหม่"
   },
   {
+    "slug": "kao-pad-kimchi",
     "name_th": "ข้าวผัดกิมจิ",
     "name_en": "Kao Pad Kimchi (Kimchi Fried Rice)",
     "spicy": "BOTH",
-    "cuisine": ["THAI", "KOREAN"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI",
+      "KOREAN"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-hung-lay",
     "name_th": "แกงฮังเล",
     "name_en": "Gaeng Hung Lay (Northern Thai Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-ho",
     "name_th": "แกงโฮะ",
     "name_en": "Gaeng Ho (Northern Thai Mixed Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "koi",
     "name_th": "ก้อย",
     "name_en": "Koi (Spicy Minced Meat Salad)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "om-moo",
     "name_th": "อ่อมหมู",
     "name_en": "Om Moo (Isan-style Pork Soup)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "sai-oua",
     "name_th": "ไส้อั่ว",
     "name_en": "Sai Oua (Northern Thai Sausage)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["NORTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "NORTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "sai-krok-isan",
     "name_th": "ไส้กรอกอีสาน",
     "name_en": "Sai Krok Isan (Isan-style Sausage)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pla-som-tod",
     "name_th": "ปลาส้มทอด",
     "name_en": "Pla Som Tod (Fried Fermented Fish)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "jaew-hon",
     "name_th": "แจ่วฮ้อน",
     "name_en": "Jaew Hon (Spicy Isan-style Hot Pot)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["ESAN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "ESAN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "khua-kling",
     "name_th": "คั่วกลิ้ง",
     "name_en": "Khua Kling (Southern Dry Curry)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gaeng-kua-hoy-khom-bai-chaplu",
     "name_th": "แกงคั่วหอยขมใบชะพลู",
     "name_en": "Gaeng Kua Hoy Khom Bai Chaplu (Curry with Apple Snails and Wild Betel Leaves)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "moo-pad-kapi",
     "name_th": "หมูผัดกะปิ",
     "name_en": "Moo Pad Kapi (Stir-fried Pork with Shrimp Paste)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-sataw",
     "name_th": "ผัดสะตอ",
     "name_en": "Pad Sataw (Stir-fried Stink Beans)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "moo-hong",
     "name_th": "หมูฮ้อง",
     "name_en": "Moo Hong (Southern-style Braised Pork)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pla-tod-kamin",
     "name_th": "ปลาทอดขมิ้น",
     "name_en": "Pla Tod Kamin (Turmeric Fried Fish)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "gai-tom-kamin",
     "name_th": "ไก่ต้มขมิ้น",
     "name_en": "Gai Tom Kamin (Turmeric Chicken Soup)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["SOUTHERN"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "SOUTHERN"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
   },
   {
+    "slug": "pad-fak-thong",
     "name_th": "ผัดฟักทอง",
     "name_en": "Pad Fak Thong (Stir-fried Pumpkin)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "wrap",
     "name_th": "แร็ป",
     "name_en": "Wrap",
     "spicy": "FALSE",
-    "cuisine": ["WESTERN"],
+    "cuisine": [
+      "WESTERN"
+    ],
     "region": [],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-thua-ngok",
     "name_th": "ผัดถั่วงอก",
     "name_en": "Pad Thua Ngok (Stir-fried Bean Sprouts)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kao-pad-goong",
     "name_th": "ข้าวผัดกุ้ง",
     "name_en": "Kao Pad Goong (Shrimp Fried Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "kao-pad-poo",
     "name_th": "ข้าวผัดปู",
     "name_en": "Kao Pad Poo (Crab Fried Rice)",
     "spicy": "FALSE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": false
   },
   {
+    "slug": "pad-thai-goong-sod",
     "name_th": "ผัดไทกุ้งสด",
     "name_en": "Pad Thai Goong Sod (Pad Thai with Fresh Shrimp)",
     "spicy": "BOTH",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": false,
     "isSoftDiet": false,
     "isNoodle": true
   },
   {
+    "slug": "po-tak",
     "name_th": "โป๊ะแตก",
     "name_en": "Po Tak (Spicy Seafood Soup)",
     "spicy": "TRUE",
-    "cuisine": ["THAI"],
-    "region": ["CENTRAL"],
+    "cuisine": [
+      "THAI"
+    ],
+    "region": [
+      "CENTRAL"
+    ],
     "isHealthy": true,
     "isSoftDiet": true,
     "isNoodle": false
