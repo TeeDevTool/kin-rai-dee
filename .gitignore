@@ -44,3 +44,7 @@ yarn-error.log*
 
 # idea files
 .idea
+
+# local AI context — keep on machine only
+/graphify-out/
+CLAUDE.md
